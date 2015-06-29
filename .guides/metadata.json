@@ -1,0 +1,52 @@
+{
+ "sections": [
+  {
+   "id": "a8f2c54a-3046-185b-6662-d0cf6f1c9f7a",
+   "title": "Section 1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: ls",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Section-1-a8f2.md"
+  },
+  {
+   "id": "fdc696-58b9-ec20-4e28-c6269dd4ff9b",
+   "title": "Section 2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: pwd",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Section-2-fdc6.md"
+  },
+  {
+   "id": "11fa5682-bcce-8c50-5e51-d36860a2bc5",
+   "title": "New Section 3",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-3-11fa.md"
+  }
+ ],
+ "theme": "charcoal",
+ "scripts": []
+}
