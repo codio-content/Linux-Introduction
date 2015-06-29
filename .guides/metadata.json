@@ -2,14 +2,14 @@
  "sections": [
   {
    "id": "a8f2c54a-3046-185b-6662-d0cf6f1c9f7a",
-   "title": "Section 1",
+   "title": "The Command Line Interface, CLI",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
     },
     {
-     "path": "#terminal: ls",
+     "path": "#terminal: clear",
      "panel": 0,
      "action": "open"
     }
@@ -17,34 +17,15 @@
    "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Section-1-a8f2.md"
+   "content-file": ".guides/content/The-Command-Line-Interface--CLI-a8f2.md"
   },
   {
-   "id": "fdc696-58b9-ec20-4e28-c6269dd4ff9b",
-   "title": "Section 2",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#terminal: pwd",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Section-2-fdc6.md"
-  },
-  {
-   "id": "11fa5682-bcce-8c50-5e51-d36860a2bc5",
-   "title": "New Section 3",
+   "id": "e858fe37-858d-3686-3652-d23cccb9c754",
+   "title": "CLI parts: The prompt",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Section-3-11fa.md"
+   "content-file": ".guides/content/New-Section-2-e858.md"
   }
  ],
  "theme": "charcoal",
