@@ -8,7 +8,7 @@ The CLI, often called _terminal_, _shell_ or _console_, __uses only text__ inste
 
 ### Interacting with the CLI
 
-In the left panel, we've enabled the _Codio Terminal_. This terminal is a Linux Operating System wrapper that uses __*bash*__, a _command line program_ that processes commands and returns output.
+In the left panel, we've enabled the _Codio Terminal_. This terminal is a Linux OS wrapper^1^ that uses __*bash*__, a _command line program_ that processes commands and returns output.
 
 |||info
 #### In case the Terminal is not enabled
@@ -23,8 +23,12 @@ With the `shift + alt + T` command.
 |||guidance
 #### Can you tell?
 
-Even though the _terminal, shell and console_ concepts are used indistinctibly, there are some slight differences between each of them. 
+Even though the _CLI, terminal, shell and console_ concepts are used indistinctibly, there are some slight differences between each of them. 
 
 Complement your knowledge by knowing the history and differences between each concept.
 
 |||
+
+---
+
+[^1]: Linux is an Operative System member of the POSIX group. A set of standards created to maintain consistency among operative systems. Linux, as other OS's is inspired on a previous one called UNIX.

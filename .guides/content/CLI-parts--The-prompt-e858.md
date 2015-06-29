@@ -2,9 +2,9 @@
 
 Take a look at the left panel, a black box with a single line on it. That's the terminal window.
 
-The terminal accepts commands that the user inputs on _prompt_, after hitting enter it runs those commands and returns an output. 
+The terminal accepts commands that the user inputs on the _prompt_, after hitting enter it runs those commands and returns an output. 
 
-Go on, try to write some word and hit enter. 
+Go on, try to write some word on the terminal and hit enter. 
 
 You've probably gotten something like: 
 
@@ -30,5 +30,5 @@ Whenever a program is run, there are 3 main parts that run sequentialy:
 #### Note
 A __standard in__ can also be a text file of a given extension with a CLI __standard out__.
 
-A __standard out__ output can also be a text file of any format from either a CLI __standard in__ or a text file __standard in__.
+A __standard out__ can also be a text file of any format from either a CLI __standard in__ or a text file __standard in__.
 |||
