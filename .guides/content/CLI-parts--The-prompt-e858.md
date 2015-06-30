@@ -1,4 +1,4 @@
-## Command Line Interface parts: The prompt
+## The prompt
 
 Take a look at the left panel, a black box with a single line on it. That's the terminal window.
 
@@ -12,13 +12,13 @@ You've probably gotten something like:
 -bash: some: command not found 
 ```
 
-This output means that the `bash` program running on the terminal does not recognize the word you've written as a valid command.
+This output means that the `bash` program running on the terminal does not recognize the word you've written as a valid command, in this case the word: "some".
 
 Lets understand what's happening after you hit enter in the prompt:
 
 ### Process flow
 
-Whenever a program is run, there are 3 main parts that run sequentialy:
+Whenever a program is processed on the command line, there are 3 main parts that run sequentialy:
 
 ![Program process flow](.guides/img/program-process-flow.png)
 
