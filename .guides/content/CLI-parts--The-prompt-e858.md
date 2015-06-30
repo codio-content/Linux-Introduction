@@ -22,9 +22,9 @@ Whenever a program is processed on the command line, there are 3 main parts that
 
 ![Program process flow](.guides/img/program-process-flow.png)
 
-1. Standard in: Consists in the written command
-2. Process: The command is processed by the program
-3. Standard out: The interpreted command returns an output
+1. __Standard in__: Consists in the written command
+2. __Process__: The command is processed by the program
+3. __Standard out__: The interpreted command returns an output
 
 |||info
 #### Note
