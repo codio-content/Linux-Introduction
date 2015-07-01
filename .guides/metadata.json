@@ -1,6 +1,68 @@
 {
  "sections": [
   {
+   "id": "2e527cd0-8e1e-673a-5e05-e08cde051ec",
+   "title": "The Command Line Interface, CLI",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The-Command-Line-Interface--CLI-2e52.md"
+  },
+  {
+   "id": "35bc9af6-e87c-f7e9-7c13-c65e1286d027",
+   "title": "Inputs and outputs",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Inputs-and-outputs-35bc.md"
+  },
+  {
+   "id": "df6769f7-4f98-e077-1307-54c3c30687e5",
+   "title": "Program execution",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Program-execution-df67.md"
+  },
+  {
+   "id": "39654f75-3210-f8bc-568d-3047b884544",
+   "title": "The CLI programs",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The-CLI-programs-3965.md"
+  },
+  {
+   "id": "e0456bf6-e567-d9f5-e462-2a123e9193e1",
+   "title": "The current directory",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-8-e045.md"
+  },
+  {
    "id": "a8f2c54a-3046-185b-6662-d0cf6f1c9f7a",
    "title": "The Command Line Interface, CLI",
    "files": [
