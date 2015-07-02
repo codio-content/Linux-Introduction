@@ -107,41 +107,6 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Wrap-up-8f97.md"
-  },
-  {
-   "id": "a8f2c54a-3046-185b-6662-d0cf6f1c9f7a",
-   "title": "The Command Line Interface, CLI",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#terminal: clear",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels-tree",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/The-Command-Line-Interface--CLI-a8f2.md"
-  },
-  {
-   "id": "e858fe37-858d-3686-3652-d23cccb9c754",
-   "title": "CLI parts: The prompt",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/CLI-parts--The-prompt-e858.md"
-  },
-  {
-   "id": "f7bfb587-2e2a-83fd-f169-956d45406a9c",
-   "title": "CLI parts: The Prompt",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/CLI-parts--The-Prompt-f7bf.md"
   }
  ],
  "theme": "charcoal",
