@@ -60,7 +60,53 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Section-8-e045.md"
+   "content-file": ".guides/content/The-current-directory-e045.md"
+  },
+  {
+   "id": "288b825f-9f9-82dc-6546-cc14447459fd",
+   "title": "Creating directories",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Creating-directories-288b.md"
+  },
+  {
+   "id": "576d6b21-263b-acd3-ff2e-694f2026514d",
+   "title": "Creating files",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mkdir dir2 | clear",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Creating-files-576d.md"
+  },
+  {
+   "id": "8f97425e-5fe5-e4a8-4a91-ef36a1b7c871",
+   "title": "Wrap up",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: touch empty-file2.txt | clear",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Wrap-up-8f97.md"
   },
   {
    "id": "a8f2c54a-3046-185b-6662-d0cf6f1c9f7a",
