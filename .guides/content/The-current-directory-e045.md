@@ -1,27 +1,23 @@
-## What exactly does the `ls` command list
+## Lets list the `~/workspace` directory content
 
-Good question! Lets understand the `ls` command:
+So we now that we are currently on the `/home/codio/workspace` because of the `pwd` command output. 
+__How do we print what's inside it?__
 
-```
-codio@anita-basket:~/workspace$ ls                                                                             
-dir1 empty-file.txt
-```
-
-If you look at the output of the `ls` command: `dir1 empty-file.txt`, you'll notice that it matches the _dir1_ and the _emtpy-file.txt_ in the _file tree_. 
-
-### Understanding the file tree
-
-On the panel at the left of the terminal window, we've got the __*file tree*__.
+1. Click on the terminal window
+2. Type `ls` into the prompt
+3. Press the _return key_
 
 |||definition
-#### File tree
+### Command: `ls`
 __Definition:__
-A way of displaying files and directories in a vertical representation. 
-
-In most cases, this interface allows the user to click on directories that contain more directories or files on them.
+The `ls` or _list directory contents_ command returns a horizontal list of the current directory and its contents.
 |||
 
-_**dir1**_ is just the name of a folder or directory that is stored in the computer's memory. Directories can contain more directories or files inside them.
+### What did the `ls` command list?
 
-_**empty-file.txt**_ in the other hand, is the name of a file with the _.txt_ format that lives inside the current directory.
+If you look at the output of the `ls` command you'll notice that it matches the _dir1_ and the _emtpy-file.txt_ in the _file tree_.
 
+```
+codio ~/workspace $ ls
+dir1 empty-file.txt
+```

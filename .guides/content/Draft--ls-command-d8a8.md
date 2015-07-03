@@ -1,11 +1,15 @@
-1. Click on the terminal window
-2. Type `ls` into the prompt
-3. Hit the _return key_
+### Understanding the file tree
+
+On the panel at the left of the terminal window, we've got the __*file tree*__.
 
 |||definition
-### Command: `ls`
+#### File tree
 __Definition:__
-The `ls` or _list directory contents_ command returns a list of the current directory and its contents.
+A way of displaying files and directories in a vertical representation. 
+
+In most cases, this interface allows the user to click on directories that contain more directories or files on them.
 |||
 
-Let's review the `ls` command in the next section.
+_**dir1**_ is just the name of a folder or directory that is stored in the computer's memory. Directories can contain more directories or files inside them.
+
+_**empty-file.txt**_ in the other hand, is the name of a file with the _.txt_ format that lives inside the current directory.

@@ -68,7 +68,7 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Section-14-9549.md"
+   "content-file": ".guides/content/The-home-path-9549.md"
   },
   {
    "id": "e0456bf6-e567-d9f5-e462-2a123e9193e1",
@@ -77,6 +77,22 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/The-current-directory-e045.md"
+  },
+  {
+   "id": "89fc75cb-4530-fb08-2078-8a07dafdd91",
+   "title": "Hidden files",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Hidden-files-89fc.md"
+  },
+  {
+   "id": "ada623ff-6158-edb7-4969-828440ea474",
+   "title": "Command options",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-16-ada6.md"
   },
   {
    "id": "288b825f-9f9-82dc-6546-cc14447459fd",
