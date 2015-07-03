@@ -1,4 +1,4 @@
-## How does the CLI recognizes commands
+## How does the CLI recognize commands
 
 Pay attention to the second step of the __program execution flow__: 
 

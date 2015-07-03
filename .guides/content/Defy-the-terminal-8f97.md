@@ -10,5 +10,5 @@ _Bash_ in the other hand, runs inside the terminal and is in charge of recognizi
 ### 4 bash commands so far
 The terminal window wants to test your commands knowledge by asking you some questions, are you ready to demonstrate your bash skills?
 
-Click on the terminal window and type the `testmybash` command.
+Click on the terminal window and answer to its questions. Who's going to _terminate_ who?
 |||
