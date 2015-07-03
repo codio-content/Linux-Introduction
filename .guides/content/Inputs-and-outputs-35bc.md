@@ -5,7 +5,7 @@ Let's review what we've done.
 After typing the `whoami` command, you've probably gotten something like: 
 
 ```
-codio@anita-basket:~/workspace$ whoami                                                                         
+codio ~/workspace $ whoami
 codio
 ```
 

@@ -55,6 +55,22 @@
    "content-file": ".guides/content/The-CLI-programs-3965.md"
   },
   {
+   "id": "e30fe1ce-98fb-9bf9-4514-51815e6f41e",
+   "title": "The working directory ",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The-working-directory--e30f.md"
+  },
+  {
+   "id": "95491f61-2ac0-e722-a85e-4bfa2fbe8c8b",
+   "title": "The home path",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-14-9549.md"
+  },
+  {
    "id": "e0456bf6-e567-d9f5-e462-2a123e9193e1",
    "title": "The current directory",
    "files": [],
@@ -142,6 +158,14 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Navigating-the-file-system--paths-d063.md"
+  },
+  {
+   "id": "d8a826f6-3d4f-fcaa-1de9-d5a1d9681575",
+   "title": "Draft: ls command",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Draft--ls-command-d8a8.md"
   }
  ],
  "theme": "charcoal",

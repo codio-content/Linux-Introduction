@@ -6,7 +6,7 @@ This technology works with text commands typed line by line. There is a CLI enab
 
 1. Click on the CLI
 2. Type: `whoami`
-3. Hit the _return key_
+3. Press the _return key_
 
 Easy right? You've learned your first command:
 

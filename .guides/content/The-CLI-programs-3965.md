@@ -12,14 +12,6 @@ _Bash_ has a vast catalog of program names, each of them perform different actio
 
 Ready to learn another _bash_ command?
 
-1. Click on the terminal window
-2. Type `ls` into the prompt
-3. Hit the _return key_
+We already know how to get the _current user_ with the `whoami` command, but what about getting the _current working directory_? 
 
-|||definition
-### Command: `ls`
-__Definition:__
-The `ls` or _list directory contents_ command returns a list of the current directory and its contents.
-|||
-
-Let's review the `ls` command in the next section.
+In other words, __where we are right now inside the *computer files and folders structure*__.

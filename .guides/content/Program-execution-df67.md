@@ -11,7 +11,7 @@ __command = program name__
 To better understand this, try to type any word into the command prompt and hit the _return key_, we'll use `anyword` as an example:
 
 ```
-codio@anita-basket:~/workspace$ anyword                                                                        
+codio ~/workspace $ anyword
 -bash: anyword: command not found 
 ```
 
