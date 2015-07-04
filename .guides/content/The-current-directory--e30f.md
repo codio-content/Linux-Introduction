@@ -1,4 +1,11 @@
-## Where are we currently at?
+## Where we are currently at
+
+So, if the CLI does not provide the typical view for interacting with files and folders, how do we know our current location inside the computer's storage?
+
+|||info
+### Folders = Directories
+One important term that you need to aknowledge is that folders are called __directories__ when working with the CLI.
+|||
 
 1. Click on the terminal window
 2. Type in the `pwd` command

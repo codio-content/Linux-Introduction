@@ -15,3 +15,8 @@ Ready to learn another _bash_ command?
 We already know how to get the _current user_ with the `whoami` command, but what about getting the _current working directory_? 
 
 In other words, __where we are right now inside the *computer files and folders structure*__.
+
+|||info
+### Where we are right now inside the computer?
+Similar to the Mac's _Finder_ or the Windows _Document Explorer_, the command line interface provides an alternative for **navigating, displaying, editing, copying and moving files and folders** across your computer's storage.
+|||

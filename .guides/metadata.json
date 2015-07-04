@@ -56,27 +56,27 @@
   },
   {
    "id": "e30fe1ce-98fb-9bf9-4514-51815e6f41e",
-   "title": "The working directory ",
+   "title": "The current directory ",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/The-working-directory--e30f.md"
+   "content-file": ".guides/content/The-current-directory--e30f.md"
   },
   {
    "id": "95491f61-2ac0-e722-a85e-4bfa2fbe8c8b",
-   "title": "The home path",
+   "title": "The current directory: file tree",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/The-home-path-9549.md"
+   "content-file": ".guides/content/The-current-directory--file-tree-9549.md"
   },
   {
    "id": "e0456bf6-e567-d9f5-e462-2a123e9193e1",
-   "title": "The current directory",
+   "title": "Listing directory contents",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/The-current-directory-e045.md"
+   "content-file": ".guides/content/Listing-directory-contents-e045.md"
   },
   {
    "id": "89fc75cb-4530-fb08-2078-8a07dafdd91",
@@ -92,7 +92,31 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Section-16-ada6.md"
+   "content-file": ".guides/content/Command-options-ada6.md"
+  },
+  {
+   "id": "6dc1c71-2071-de61-1c9a-a35ad48a3c3c",
+   "title": "The ls -a option in depth",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The-ls--a-option-in-depth-6dc1.md"
+  },
+  {
+   "id": "de6c4f31-aa3f-76db-22f0-c3d3e046b7f3",
+   "title": "Navigating the file system: entering",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Navigating-the-file-system--entering-de6c.md"
+  },
+  {
+   "id": "f6cbaf8c-fa0d-2fe1-5d79-4d2abdc3f104",
+   "title": "Navigating the file system: going back",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Navigating-the-file-system--going-back-f6cb.md"
   },
   {
    "id": "288b825f-9f9-82dc-6546-cc14447459fd",

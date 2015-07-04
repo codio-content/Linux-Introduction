@@ -9,7 +9,7 @@ codio ~/workspace $ whoami
 codio
 ```
 
-The first line, where you typed the command, is called __the command prompt__. In the second line, we've got an __output__ after executing that command by hitting enter.
+The first line, where you typed the command, is called __the command prompt__. In the second line, we've got an __output__ after executing that command by pressing the _return key_.
 
 Basically, this is how the CLI works:
 
