@@ -2,27 +2,19 @@
 
 Wonderful question! You may be guessing that in order to create or make files, the command would be something like: `mkfile`, right? Well, in this case it isn't.
 
-To create a file in the current directory, execute the following:
+Lets create a file inside our new _dir2_ directory:
 
-1. Click on the terminal window
-2. Type: `touch empty-file2.txt`
-3. Hit the `return key`
-
-Execute the `ls` in the terminal, if you followed along with the course, you should be seeing this output:
-
-```
-codio@anita-basket:~/workspace$ ls                                                                             
-dir1  dir2  empty-file2.txt  empty-file.txt
-```
+1. Enter the _dir2_ directory
+2. Execute: `touch file2.txt`
 
 |||definition
 ### Command: `touch`
 __Definition:__
 If any file does not exist, the `touch` command creates it with default permissions.
 
-Additionaly, the `touch` commands needs an _argument_, in this case, the argument is the name of the file to be created, don't forget the file extension: 
+Additionaly, the `touch` command needs an _argument_, in this case, the argument is the name of the file to be created, don't forget the file extension: 
 
-`touch name_of_the_file.file_extension`
+`touch file.extension`
 
 ---
 
