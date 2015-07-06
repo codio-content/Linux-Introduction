@@ -108,7 +108,7 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Navigating-the-file-system--entering-de6c.md"
+   "content-file": ".guides/content/Navigating-the-file-system--entering-directories-de6c.md"
   },
   {
    "id": "f6cbaf8c-fa0d-2fe1-5d79-4d2abdc3f104",
@@ -163,49 +163,6 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Defy-the-terminal-8f97.md"
-  },
-  {
-   "id": "264adc71-a916-e819-bf42-7a367bd2c1db",
-   "title": "Navigating the filetree",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Navigating-the-filetree-264a.md"
-  },
-  {
-   "id": "a6f9a6d-76c6-2ff2-e6a9-5fcebdf9d159",
-   "title": "Navigating the file system",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Navigating-the-file-system-a6f9.md"
-  },
-  {
-   "id": "d063d5e-15f9-97e0-884b-3c027a5b859c",
-   "title": "Navigating the file system: paths",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#terminal: cd ~ | cd dir1 | clear",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels-tree",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Navigating-the-file-system--paths-d063.md"
-  },
-  {
-   "id": "d8a826f6-3d4f-fcaa-1de9-d5a1d9681575",
-   "title": "Draft: ls command",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Draft--ls-command-d8a8.md"
   }
  ],
  "theme": "charcoal",
