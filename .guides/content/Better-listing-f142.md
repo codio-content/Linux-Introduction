@@ -17,4 +17,6 @@ drwxrwxr-x 2 codio codio  6 Jul  7 13:36 dir2
 -rw-rw-r-- 1 codio codio  0 Jul  1 22:12 empty-file.txt
 ```
 
-We'll explain the additional columns that are being displayed in further units, but for now, pay attention at the last column, the name of the files and directories are listed vertically inside the terminal, a cleaner way of displaying the current directory contents.
+We'll explain the additional columns that are being displayed in further units, but for now, pay attention at the last column. 
+
+The name of the files and directories are listed vertically inside the terminal, a cleaner and more readable way of displaying the current directory contents.

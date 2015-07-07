@@ -15,4 +15,4 @@ codio ~/workspace $ anyword
 -bash: anyword: command not found 
 ```
 
-Did you get a similar output?
+Did you get similar output?

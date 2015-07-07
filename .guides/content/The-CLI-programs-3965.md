@@ -1,6 +1,6 @@
 ## The command line programs
 
-The CLI recognizes several program names depending on the computer and the system that lives in the computer. Codio's CLI, also known as the __terminal window__ has an installed software called: __*bash*__.
+The CLI recognizes several program names depending on the computer and the operating system that lives in the computer. Codio's CLI, also known as the __terminal window__ has an installed software called: __*bash*__.
 
 |||definition
 ### Bash

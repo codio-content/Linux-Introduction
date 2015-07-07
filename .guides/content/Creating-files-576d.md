@@ -2,7 +2,7 @@
 
 Wonderful question! In order to create files, execute the following inside our new _dir2_ directory:
 
-1. Enter the _dir2_ directory
+1. Move to the _dir2_ directory
 2. Make sure we are inside _dir2_ with the `pwd` command
 2. Execute: `touch file2.txt`
 

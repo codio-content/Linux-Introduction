@@ -1,8 +1,8 @@
-## I know how to list existing directories and files, lets create them!
+## Creating new directories and files
 
-_Bash_ commands show pretty useful when working with the _file tree_. For example, if you are asked to start a new software project, most certainly you'll need to create a directory that may hold more files and directories inside it.
+If you are asked to start a new software project, you'll almost certainly need to create a directory that can hold more files and directories inside it.
 
-Good idea! Lets do that:
+Lets do that:
 
 1. Execute: `mkdir dir2`
 

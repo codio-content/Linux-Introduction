@@ -2,13 +2,13 @@
 
 Aha! You are becoming a sharped-eyed developer.
 
-Look at the _file tree_, there are some __files and directories that start with a dot__ that are not being printed by the `ls` command, why is that? 
+Look at the _file tree_. There are some __files and directories that start with a dot__ that are not being printed by the `ls` command, why is that? 
 
 |||definition
 ### Hidden files and hidden directories
 __Dotfiles__ as they are usually known, are commonly used for storing user preferences or user configuration. 
 
-The intent of files or folders that start with a dot character is simply not to "clutter" the display of the contents of a directory listing with files the user did not directly create.
+The intention of files or folders that start with a dot character is simply to not "clutter" the display of the contents of a directory listing with files the user did not directly create or wants to remain hidden from casual inspection.
 |||
 
 ### Wondering if hidden files and folders can be listed?

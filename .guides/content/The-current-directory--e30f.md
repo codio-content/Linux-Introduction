@@ -1,6 +1,6 @@
 ## Where we are currently at
 
-So, if the CLI does not provide the typical view for interacting with files and folders, how do we know our current location inside the computer's storage?
+As the CLI does not provide a graphical users interface for interacting with files and folders, how do we know our current location inside the computer's storage?
 
 |||info
 ### Folders = Directories

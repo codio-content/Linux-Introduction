@@ -11,7 +11,7 @@ codio ~/workspace $ ls -a
 .  ..   dir1  empty-file.txt  .git  .guides
 ```
 
-Can you recognize the hidden V.S. the normal files and folders?
+Can you recognize the hidden vs. the normal files and folders?
 
 |||definition
 ### Command options

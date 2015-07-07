@@ -11,3 +11,7 @@ Imagine a scenario where the same computer is being used by 3 different users: J
 ![home-directory](.guides/img/home-directory.png)
 
 John, Anita and Tom will have their own workspace directory without merging each others' files.
+
+On a Codio server, you don't have any other users (unless you add them) and Codio automatically creates a user called `codio`. 
+
+This is why the `~` directory is `/home/codio`.
