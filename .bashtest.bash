@@ -45,6 +45,13 @@ function changedir {
 	cd "$1"
 }
 
+function goodbye {
+	echo "${PROMPTCOLOR}=>${OUTCOLOR} $username!${ANSCOLOR} You've made it to the end, here are your total points:"
+	addpoints
+	echo "${PROMPTCOLOR}=>${QCOLOR}Keep on going with the CLI course, see you next time!"
+	exit
+}
+
 # Begin test
 function begintest {
 	if [[ -d "test-dir1" ]]; then
@@ -133,7 +140,7 @@ function question4 {
 }
 
 function question5 {
-	echo "${PROMPTCOLOR}=>${QCOLOR} Confirm that we've entered by printing the 'path to the current directory':"
+	echo "${PROMPTCOLOR}=>${QCOLOR} Confirm that we've entered by printing the 'path to the working directory':"
 	read -r qa5
 	if [[ $qa5 == "pwd" ]]; then
 		question6
@@ -147,7 +154,7 @@ function question5 {
 function question6 {
 	echo "${PROMPTCOLOR}=>${ANSCOLOR} Our current directory path is ${CMDCOLOR}$(pwd)${COLRESET}${ANSCOLOR}"
 	addpoints
-	echo "${PROMPTCOLOR}=>${ANSCOLOR} It's time to create a file with the name ${OUTCOLOR}test-file1.txt${COLRESET}:"
+	echo "${PROMPTCOLOR}=>${QCOLOR} It's time to create a file with the name ${OUTCOLOR}test-file1.txt${COLRESET}:"
 	read -r qa6
 	if [[ "$qa6" == "touch" && $1 == "" ]]; then
 		echo "${PROMPTCOLOR}=>${CMDCOLOR} pwd${COLRESET}${ERRCOLOR} is the right command, but you are missing the right argument. Try again."
@@ -156,8 +163,7 @@ function question6 {
 		touch test-dir1.txt
 		echo "${PROMPTCOLOR}=>${ANSCOLOR} You've created a ${OUTCOLOR}test-dir1.txt${ANSCOLOR} file"
 		addpoints
-		exit
-		# question7
+		question7
 	else
 		echo "${PROMPTCOLOR}=>${ERRCOLOR} I can't recognize the ${CMDCOLOR}$qa6${COLRESET}${ERRCOLOR} command, try again."
 		substractpoints
@@ -165,7 +171,65 @@ function question6 {
 	fi
 }
 
+function question7 {
+	echo "${PROMPTCOLOR}=>${QCOLOR} Lets make sure we have the double dots available for exiting by listing the hidden files:"
+	read -r qa7
+	if [[ "$qa7" != "ls -a" ]]; then
+		echo "${PROMPTCOLOR}=>${CMDCOLOR} $qa7${COLRESET}${ERRCOLOR} won't list the hidden files and directories. Try again"
+		substractpoints
+		question7
+	else
+		ls -a
+		echo "${PROMPTCOLOR}=>${ANSCOLOR} That's right! The ${CMDCOLOR}$qa7${COLRESET}${ANSCOLOR} command lists the dotfiles."
+		addpoints
+		question8
+	fi
+}
 
+function question8 {
+	echo "${PROMPTCOLOR}=>${ANSCOLOR} Ok, lets get out of this directory. Remember how?:"
+	read -r qa8
+	if [[ "$qa8" != "cd .." ]]; then
+		echo "${PROMPTCOLOR}=>${CMDCOLOR} $qa8${COLRESET}${ERRCOLOR} won't get you out of this directory. Try again."
+		substractpoints
+		question8
+	else
+		changedir ..
+		echo "${PROMPTCOLOR}=>${ANSCOLOR} Tadaaah! The ${CMDCOLOR}$qa8${COLRESET}${ANSCOLOR} command goes back 1 directory. Now you know how to navigate inside and outside directories."
+		question9
+		addpoints
+	fi
+}
+
+function question9 {
+	echo "${PROMPTCOLOR}=>${QCOLOR} Last challenge! List files, directories and dotfiles details in a vertical layout:"
+	read -r qa9
+	if [[ "$qa9" == "ls -al" ]]; then
+		ls -al
+		echo "${PROMPTCOLOR}=>${CMDCOLOR} $qa9${COLRESET}${ANSCOLOR} lists files, directories and dotfiles details in a vertical layout."
+		echo "${PROMPTCOLOR}=>${ANSCOLOR} This means that you can combine command options using a single hyphen."
+		goodbye
+	elif [[ $qa9 == "ls -la" ]]; then
+		ls -al
+		echo "${PROMPTCOLOR}=>${CMDCOLOR} $qa9${COLRESET}${ANSCOLOR} lists files, directories and dotfiles details in a vertical layout."
+		echo "${PROMPTCOLOR}=>${ANSCOLOR} This means that you can combine command options using a single hyphen."
+		goodbye
+	elif [[ $qa9 == "ls -l -a" ]]; then
+		ls -al
+		echo "${PROMPTCOLOR}=>${CMDCOLOR} $qa9${COLRESET}${ANSCOLOR} lists files, directories and dotfiles details in a vertical layout."
+		echo "${PROMPTCOLOR}=>${ANSCOLOR} This means that you can combine command options using a single hyphen."
+		goodbye
+	elif [[ $qa9 == "ls -a -l" ]]; then
+		ls -al
+		echo "${PROMPTCOLOR}=>${CMDCOLOR} $qa9${COLRESET}${ANSCOLOR} lists files, directories and dotfiles details in a vertical layout."
+		echo "${PROMPTCOLOR}=>${ANSCOLOR} This means that you can combine command options using a single hyphen."
+		goodbye
+	else
+		echo "${PROMPTCOLOR}=>${ERRCOLOR} I can't recognize the ${CMDCOLOR}$qa9${COLRESET}${ERRCOLOR} command, try again."
+		substractpoints
+		question9
+	fi
+}
 
 
 

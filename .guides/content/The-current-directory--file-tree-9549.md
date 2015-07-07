@@ -6,11 +6,9 @@ The similarities between the first line and the second line of the previous exam
 
 The `workspace/` directory, is the folder that contains the files and folders you are seeing in the _file tree_ or the first panel on the left, meaning that the _current location_ is the `workspace/` directory:
 
-![filetree-screenshot](.guides/img/filetree-screenshot.png)
+![filetree-screenshot](.guides/img/filetree.png)
 
 |||definition
 ### File tree
 The _file tree_ is a __vertical and interactive representation__ of the files and directories stored in the computer's hard drive.
-
-In most cases, this interface allows the user to click on directories that contain more directories or files on them by adding a `>` character at the left of parent directories.
 |||

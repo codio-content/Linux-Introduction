@@ -1,6 +1,7 @@
 ## Remember the double dots?
 
-When we executed the `ls -a` command, we noticed a set of single and double dots: `. ..` -- As we previously mentioned these dots are utilities that _bash_ uses to help on navigating the _file system_.
+When we executed the `ls -a` command, we noticed a set of single and double dots: `. ..`
+As we previously mentioned these dots are utilities that _bash_ uses to help on navigating the _file system_.
 
 ### Going back 1 directory
 
