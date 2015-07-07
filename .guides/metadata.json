@@ -9,7 +9,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: ",
+     "path": "#terminal: clear",
      "panel": 0,
      "action": "open"
     }
@@ -22,7 +22,18 @@
   {
    "id": "35bc9af6-e87c-f7e9-7c13-c65e1286d027",
    "title": "Inputs and outputs",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear | whoami",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Inputs-and-outputs-35bc.md"
@@ -30,7 +41,18 @@
   {
    "id": "df6769f7-4f98-e077-1307-54c3c30687e5",
    "title": "Program execution",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Program-execution-df67.md"
@@ -49,7 +71,7 @@
      "action": "open"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/The-CLI-programs-3965.md"
@@ -57,7 +79,18 @@
   {
    "id": "e30fe1ce-98fb-9bf9-4514-51815e6f41e",
    "title": "The current directory ",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/The-current-directory--e30f.md"
@@ -65,7 +98,18 @@
   {
    "id": "95491f61-2ac0-e722-a85e-4bfa2fbe8c8b",
    "title": "The current directory: file tree",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/The-current-directory--file-tree-9549.md"
@@ -73,7 +117,18 @@
   {
    "id": "ac7c3205-b9a-25ef-a9e3-1bf949bbd80c",
    "title": "The home directory",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/The-home-directory-ac7c.md"
@@ -81,7 +136,18 @@
   {
    "id": "e0456bf6-e567-d9f5-e462-2a123e9193e1",
    "title": "Listing directory contents",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Listing-directory-contents-e045.md"
@@ -89,7 +155,18 @@
   {
    "id": "89fc75cb-4530-fb08-2078-8a07dafdd91",
    "title": "Hidden files",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Hidden-files-89fc.md"
@@ -97,7 +174,18 @@
   {
    "id": "ada623ff-6158-edb7-4969-828440ea474",
    "title": "Command options",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Command-options-ada6.md"
@@ -129,7 +217,18 @@
   {
    "id": "288b825f-9f9-82dc-6546-cc14447459fd",
    "title": "Creating directories",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: cd ~/workspace | clear",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Creating-directories-288b.md"
@@ -143,7 +242,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: mkdir dir2 | clear",
+     "path": "#terminal: clear",
      "panel": 0,
      "action": "open"
     }
@@ -156,7 +255,18 @@
   {
    "id": "f142e320-9a1f-f1ce-64ea-9b12a97fb93b",
    "title": "Better listing",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Better-listing-f142.md"
@@ -170,7 +280,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: touch empty-file2.txt | chmod +x .bashtest.bash | ./.bashtest.bash | clear",
+     "path": "#terminal: chmod +x ~/bin/bashtest | clear",
      "panel": 0,
      "action": "open"
     }

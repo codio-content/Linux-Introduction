@@ -1,10 +1,9 @@
 ## The `mkdir` command makes directories, but what about files?
 
-Wonderful question! You may be guessing that in order to create or make files, the command would be something like: `mkfile`, right? Well, in this case it isn't.
-
-Lets create a file inside our new _dir2_ directory:
+Wonderful question! In order to create files, execute the following inside our new _dir2_ directory:
 
 1. Enter the _dir2_ directory
+2. Make sure we are inside _dir2_ with the `pwd` command
 2. Execute: `touch file2.txt`
 
 |||definition
