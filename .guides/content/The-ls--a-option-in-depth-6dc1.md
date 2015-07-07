@@ -14,5 +14,6 @@ _Dots_ in _bash_ are useful utilities that help on navigating the _file system_ 
 In an `ls` listing
 
 - `.` refers to the current directory, more on this later
-- `..` refers to the parent direcory, the directory immediately above the current directory. We'll apply this knowledge later.
+- `..` refers to the parent directory, the directory immediately above the current directory. We'll apply this knowledge later.
+
 |||

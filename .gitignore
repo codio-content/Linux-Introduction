@@ -1,0 +1,6 @@
+# Settings file
+.settings
+
+# Tests
+test.crunch
+test.flow
