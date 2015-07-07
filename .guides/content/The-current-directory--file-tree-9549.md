@@ -6,7 +6,7 @@ The similarities between the first line and the second line of the previous exam
 
 The `workspace/` directory, is the folder that contains the files and folders you are seeing in the _file tree_ or the first panel on the left, meaning that the _current location_ is the `workspace/` directory:
 
-![filetree-screenshot](.guides/img/filetree.png)
+![filetree-screenshot](.guides/img/filetree-2.png)
 
 |||definition
 ### File tree

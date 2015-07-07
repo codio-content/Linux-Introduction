@@ -71,6 +71,14 @@
    "content-file": ".guides/content/The-current-directory--file-tree-9549.md"
   },
   {
+   "id": "ac7c3205-b9a-25ef-a9e3-1bf949bbd80c",
+   "title": "The home directory",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/What-about-the---symbol--ac7c.md"
+  },
+  {
    "id": "e0456bf6-e567-d9f5-e462-2a123e9193e1",
    "title": "Listing directory contents",
    "files": [],
@@ -162,7 +170,7 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Defy-the-terminal-8f97.md"
+   "content-file": ".guides/content/Wrapping-up-8f97.md"
   }
  ],
  "theme": "charcoal",
