@@ -8,7 +8,7 @@ After executing the `ls -a` command, we've gotten a larger output:
 
 ```
 codio ~/workspace $ ls -a
-.  ..  .bashtest.bash  dir1  empty-file.txt  .git  .guides
+.  ..   dir1  empty-file.txt  .git  .guides
 ```
 
 Can you recognize the hidden V.S. the normal files and folders?
