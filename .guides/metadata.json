@@ -124,7 +124,7 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Navigating-the-file-system--going-back-f6cb.md"
+   "content-file": ".guides/content/Navigating-the-FS--going-back-f6cb.md"
   },
   {
    "id": "288b825f-9f9-82dc-6546-cc14447459fd",
@@ -152,6 +152,14 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Creating-files-576d.md"
+  },
+  {
+   "id": "f142e320-9a1f-f1ce-64ea-9b12a97fb93b",
+   "title": "Better listing",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Better-listing-f142.md"
   },
   {
    "id": "8f97425e-5fe5-e4a8-4a91-ef36a1b7c871",
