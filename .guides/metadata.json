@@ -28,7 +28,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: clear | whoami",
+     "path": "#terminal: clear",
      "panel": 0,
      "action": "open"
     }

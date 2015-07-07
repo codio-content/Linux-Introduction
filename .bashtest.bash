@@ -3,8 +3,8 @@
 
 # Points
 totalpoints=1
-pospoints=1
-negpoints=2
+pospoints=2
+negpoints=1
 
 # Colors
 ERRCOLOR=`tput setaf 1`
