@@ -13,11 +13,6 @@ __Definition:__
 The `ls` or _list directory contents_ command returns a horizontal list of the current directory and its contents.
 |||
 
-### What did the `ls` command list?
+### Did the `ls` matched the file tree?
 
-If you look at the output of the `ls` command you'll notice that it matches the _dir1_ and the _emtpy-file.txt_ in the _file tree_.
-
-```
-codio ~/workspace $ ls
-dir1 empty-file.txt
-```
+Considering that we are currently at the `~/workspace` directory, then the `ls` command should have listed what's inside it. 

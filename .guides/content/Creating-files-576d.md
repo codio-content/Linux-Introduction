@@ -10,9 +10,9 @@ Lets create a file inside our new _dir2_ directory:
 |||definition
 ### Command: `touch`
 __Definition:__
-If any file does not exist, the `touch` command creates it with default permissions.
+If any file does not exist, the `touch` command will create it.
 
-Additionaly, the `touch` command needs an _argument_, in this case, the argument is the name of the file to be created, don't forget the file extension: 
+Additionaly, the `touch` command needs an _argument_, in this case, the argument is the name of the file to be created, don't forget the file extension:
 
 `touch file.extension`
 

@@ -76,7 +76,7 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/What-about-the---symbol--ac7c.md"
+   "content-file": ".guides/content/The-home-directory-ac7c.md"
   },
   {
    "id": "e0456bf6-e567-d9f5-e462-2a123e9193e1",
@@ -112,15 +112,15 @@
   },
   {
    "id": "de6c4f31-aa3f-76db-22f0-c3d3e046b7f3",
-   "title": "Navigating the file system: entering directories",
+   "title": "Navigating the FS: entering directories",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Navigating-the-file-system--entering-directories-de6c.md"
+   "content-file": ".guides/content/Navigating-the-FS--entering-directories-de6c.md"
   },
   {
    "id": "f6cbaf8c-fa0d-2fe1-5d79-4d2abdc3f104",
-   "title": "Navigating the file system: going back",
+   "title": "Navigating the FS: going back",
    "files": [],
    "path": [],
    "type": "markdown",
