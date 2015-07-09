@@ -2,7 +2,7 @@
 
 Let's review what we've done.
 
-After typing the `whoami` command, you've probably gotten something like: 
+After typing the `whoami` command, you've probably got something like: 
 
 ```
 codio ~/workspace $ whoami
@@ -15,5 +15,4 @@ Basically, this is how the CLI works:
 
 ![program exec flow](.guides/img/program-process-flow.png)
 
-One important question to ask is:
-How does the CLI recognize the `whoami` command?
+One important question to ask is how does the CLI recognize the `whoami` command?

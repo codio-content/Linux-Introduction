@@ -1,6 +1,6 @@
 ## Let's list the `~/workspace` directory contents
 
-So we now that we are currently on the `/home/codio/workspace` because of the `pwd` command output. 
+So we now know that we are currently on the `/home/codio/workspace`. The `pwd` command tells us that.
 
 __How do we list what's inside it?__
 

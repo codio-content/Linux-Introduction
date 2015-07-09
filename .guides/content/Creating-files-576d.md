@@ -8,8 +8,7 @@ Wonderful question! In order to create files, execute the following inside our n
 
 |||definition
 ### Command: `touch`
-__Definition:__
-If any file does not exist, the `touch` command will create it.
+__Definition:__ if any file does not exist, the `touch` command will create one for you.
 
 Additionaly, the `touch` command needs an _argument_, in this case, the argument is the name of the file to be created, don't forget the file extension:
 

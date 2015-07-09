@@ -1,4 +1,4 @@
-## C using the CLI?
+## Navigating directories using the CLI?
 
 _Bash_ provides a widely used command called `cd` or _change directories_ command that allows the user to navigate through directories, in order to see how it works perform the following: 
 

@@ -1,10 +1,10 @@
-## Where we are currently at
+## Where we are currently?
 
-As the CLI does not provide a graphical users interface for interacting with files and folders, how do we know our current location inside the computer's storage?
+As the CLI does not provide a graphical user interface or *GUI* for interacting with files and folders, how do we know our current location inside the computer's storage?
 
 |||info
 ### Folders = Directories
-One important term that you need to aknowledge is that folders are called __directories__ when working with the CLI.
+One important term that you need to know is that folders are also known as __directories__ when working with the CLI.
 |||
 
 1. Click on the terminal window

@@ -7,7 +7,7 @@ Now that we have more files and directories in the `~/workspace` directory, is t
 
 ### Exploring the `-l` option of the `ls` command
 
-You've probably gotten something like this: 
+You should see something like this: 
 
 ```
 codio ~/workspace $ ls -l

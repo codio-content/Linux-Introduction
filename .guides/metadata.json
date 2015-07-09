@@ -200,15 +200,15 @@
   },
   {
    "id": "de6c4f31-aa3f-76db-22f0-c3d3e046b7f3",
-   "title": "Navigating the FS: entering directories",
+   "title": "Changing directories",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Navigating-the-FS--entering-directories-de6c.md"
+   "content-file": ".guides/content/Changing-directories-de6c.md"
   },
   {
    "id": "f6cbaf8c-fa0d-2fe1-5d79-4d2abdc3f104",
-   "title": "Navigating the FS: going back",
+   "title": "Navigating backwards",
    "files": [],
    "path": [],
    "type": "markdown",
