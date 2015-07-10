@@ -212,7 +212,7 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Navigating-the-FS--going-back-f6cb.md"
+   "content-file": ".guides/content/Navigating-backwards-f6cb.md"
   },
   {
    "id": "288b825f-9f9-82dc-6546-cc14447459fd",
@@ -280,7 +280,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: chmod +x ~/bin/bashtest | clear",
+     "path": "#terminal: clear",
      "panel": 0,
      "action": "open"
     }
