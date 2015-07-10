@@ -1,0 +1,24 @@
+#!/bin/bash
+#bashtest init
+
+arg=$1
+
+function runtestfile {
+	# read -r ans
+	case $arg in
+	cli-test ) chmod +x "${BASHDIR}/bashtests/${arg}"
+		$arg
+		;;
+	mkdir-test ) chmod +x "${BASHDIR}/bashtests/${arg}"
+		$arg
+	  ;;
+	*) echo "The $arg argument can't be recognized. Try again."
+	   ;;
+	esac
+}
+
+if [[ -z "$arg" ]]; then
+	echo "The 'bashtest' command needs an argument in order to be executed.";
+else
+	runtestfile
+fi
