@@ -3,10 +3,15 @@
 
 arg=$1
 
+# Helper funcs
+function changedir {
+	cd "$1"
+}
+
 function runtestfile {
 	# read -r ans
 	case $arg in
-	cli-test ) chmod +x "${BASHDIR}/bashtests/${arg}"
+	cli-1-test ) chmod +x "${BASHDIR}/bashtests/${arg}"
 		$arg
 		;;
 	mkdir-test ) chmod +x "${BASHDIR}/bashtests/${arg}"
@@ -16,6 +21,7 @@ function runtestfile {
 	   ;;
 	esac
 }
+
 
 if [[ -z "$arg" ]]; then
 	echo "The 'bashtest' command needs an argument in order to be executed.";
