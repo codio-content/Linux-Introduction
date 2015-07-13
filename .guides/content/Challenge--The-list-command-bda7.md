@@ -1,11 +1,11 @@
 ## Listing files and directories
 
 |||challenge
-L
+By listing files and directories you can compare the output with your file tree.
 
 Click on the command line at the left and execute:
 
 ```
-bashtest cli-1-test
+bashtest cli-2-test
 ```
 |||

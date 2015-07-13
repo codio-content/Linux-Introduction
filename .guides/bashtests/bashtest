@@ -14,6 +14,15 @@ function runtestfile {
 	cli-1-test ) chmod +x "${BASHDIR}/bashtests/${arg}"
 		$arg
 		;;
+	cli-2-test ) chmod +x "${BASHDIR}/bashtests/${arg}"
+		$arg
+		;;
+	cli-3-test ) chmod +x "${BASHDIR}/bashtests/${arg}"
+		$arg
+		;;
+	cli-4-test ) chmod +x "${BASHDIR}/bashtests/${arg}"
+		$arg
+		;;
 	mkdir-test ) chmod +x "${BASHDIR}/bashtests/${arg}"
 		$arg
 	  ;;

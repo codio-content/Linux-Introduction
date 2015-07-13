@@ -12,7 +12,7 @@ negpoints=1
 # Colors
 ERRCOLOR=`tput setaf 1`
 QCOLOR=`tput setaf 3`
-ANSCOLOR=`tput setaf 1`
+ANSCOLOR=`tput setaf 2`
 OUTCOLOR=`tput setaf 4`
 PROMPTCOLOR=`tput setaf 3`
 CMDCOLOR=`tput setaf 4`

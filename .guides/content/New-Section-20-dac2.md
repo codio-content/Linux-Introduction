@@ -1,7 +1,7 @@
-## Listing files and directories
+## This is your first challenge
 
 |||challenge
-L
+Do you remember the commands we just mentioned?
 
 Click on the command line at the left and execute:
 
