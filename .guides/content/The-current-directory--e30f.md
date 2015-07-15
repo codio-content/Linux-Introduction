@@ -14,7 +14,7 @@ One important term that you need to know is that folders are also known as __dir
 |||definition
 ### Command: `pwd`
 __Definition:__
-The `pwd` utility outputs the _path to the working directory_. 
+The `pwd` utility _prints the working directory_.
 |||
 
 ### Understanding the `pwd` command output:
