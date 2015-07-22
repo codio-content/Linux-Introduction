@@ -1,3 +1,0 @@
-cli-1-1
-pwd
-whoami

@@ -1,4 +1,4 @@
-    (( QCOUNT -- ))#!/bin/bash
+#!/bin/bash
 # bash_history edit
 
 bash_history=~/.bash_history
