@@ -8,10 +8,17 @@ function changedir {
 	cd "$1"
 }
 
+function reset_history {
+    echo "$arg" > ~/.bash_history
+}
+
 function runtestfile {
-	# read -r ans
+    reset_history
 	case $arg in
     cli-1-1 ) chmod +x "${BASHDIR}/bashtests/${arg}.sh"
+		"$arg.sh"
+		;;
+    cli-1-2 ) chmod +x "${BASHDIR}/bashtests/${arg}.sh"
 		"$arg.sh"
 		;;
 	cli-1-test ) chmod +x "${BASHDIR}/bashtests/${arg}"
