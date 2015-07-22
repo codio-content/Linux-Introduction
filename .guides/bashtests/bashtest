@@ -11,6 +11,9 @@ function changedir {
 function runtestfile {
 	# read -r ans
 	case $arg in
+    cli-1-1 ) chmod +x "${BASHDIR}/bashtests/${arg}.sh"
+		"$arg.sh"
+		;;
 	cli-1-test ) chmod +x "${BASHDIR}/bashtests/${arg}"
 		$arg
 		;;
