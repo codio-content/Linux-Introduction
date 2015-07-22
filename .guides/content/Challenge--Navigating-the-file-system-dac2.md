@@ -1,9 +1,10 @@
 ## Lets examine the _dir1_ directory
 
 |||challenge
-Test your directory navigation skills by executing:
+Test your directory navigation skills:
 
-```
-bashtest cli-3-test
-```
+1. Confirm that we are on the `~/workspace` folder by getting the current directory path
+2. Enter the `dir1` directory
+3. Exit the `dir1` directory
+
 |||
