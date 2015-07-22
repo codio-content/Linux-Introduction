@@ -39,7 +39,7 @@ function test_command {
 				expect_command "ls" "list files and directories" "lists files and directories"
 				;;
 			2 )
-				expect_command "ls -al" "list hidden files and directories" "together with the '-a' option lists hidden files and directories"
+				expect_command "ls -a" "list hidden files and directories" "together with the '-a' option lists hidden files and directories"
 				;;
 		esac
 	done
