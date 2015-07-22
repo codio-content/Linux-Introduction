@@ -3,9 +3,9 @@
 |||challenge
 Do you remember the commands we just mentioned?
 
-Click on the command line at the left and execute:
+In the CLI:
 
-```
-bashtest cli-1-test
-```
+1. Get the _current user_
+2. Print the _path to the working directory_
+
 |||
