@@ -98,7 +98,18 @@
   {
    "id": "6372ca4-61d4-492-fda6-62955fce99a3",
    "title": "Challenge: Getting your first outputs",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: echo cli-1-1 > ~/.bash_history",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge--Getting-your-first-outputs-6372.md"
@@ -320,7 +331,7 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Section-21-20db.md"
+   "content-file": ".guides/content/Challenge--Creating-files-and-directories-20db.md"
   }
  ],
  "theme": "charcoal",
