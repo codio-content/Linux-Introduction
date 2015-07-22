@@ -5,13 +5,13 @@ bash_history=~/.bash_history
 check_file=cli-1-2.txt
 grep -A2000 -e "^cli-1-2" $bash_history > "$BASHDIR/bashtests/$check_file"
 
-check_file="$BASHDIR/bashtests/$check_file"
+hist_file="$BASHDIR/bashtests/$check_file"
 
 QCOUNT=2
 function expect_command 
 {
 	(( QCOUNT -- ))
-	if grep -Fxq "$1" "$check_file"
+	if grep -Fxq "$1" "$hist_file"
 	then
 		response "$1" "$3" $QCOUNT
 	else 

@@ -13,7 +13,6 @@ function reset_history {
 }
 
 function runtestfile {
-    reset_history
 	case $arg in
     cli-1-1 ) chmod +x "${BASHDIR}/bashtests/${arg}.sh"
 		"$arg.sh"
@@ -39,6 +38,7 @@ function runtestfile {
 	*) echo "The $arg argument can't be recognized. Try again."
 	   ;;
 	esac
+    reset_history
 }
 
 
