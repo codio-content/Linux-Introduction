@@ -1,3 +1,11 @@
 cli-1-2
 bashtest cli-1-2
+cli-1-2
+bashtest cli-1-2
 ls
+cli-1-2
+bashtest cli-1-2
+cli-1-2
+bashtest cli-1-2
+ls -a
+cli-1-2

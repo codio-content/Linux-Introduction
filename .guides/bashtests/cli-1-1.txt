@@ -1,0 +1,7 @@
+cli-1-1
+bashtest cli-1-1
+pwd
+cli-1-1
+bashtest cli-1-1
+whoami
+cli-1-1

@@ -18,3 +18,29 @@ mkdir test-dir1/
 cli-1-4
 bashtest cli-1-4
 cli-1-4
+bashtest cli-1-4
+git a
+git a 
+git c "Bashtest bugs"
+git push
+gi a
+git a
+git c "Challenge answers formatting" 
+git push
+cli-1-4
+bashtest cli-1-4
+cd test-dir1/
+cli-1-4
+bashtest cli-1-4
+touch test-file1.txt
+cli-1-4
+bashtest cli-1-4
+ls -a
+cli-1-4
+bashtest cli-1-4
+cd ..
+cli-1-4
+bashtest cli-1-4
+ls -l
+ls -l
+cli-1-4
