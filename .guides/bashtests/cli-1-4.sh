@@ -3,10 +3,10 @@
 
 bash_history=~/.bash_history
 check_file=cli-1-4
-hist_file="$BASHDIR/bashtests/CLI1/$check_file.txt"
+hist_file="$BASHDIR/bashtests/$check_file.txt"
 
 echo "$check_file" >> $bash_history
-grep -A2000 -e "^cli-1-4" $bash_history > "$BASHDIR/bashtests/CLI1/${check_file}.txt"
+grep -A2000 -e "^cli-1-4" $bash_history > "$BASHDIR/bashtests/${check_file}.txt"
 
 # Must match for erasing history
 RES_HIST=0
@@ -37,7 +37,7 @@ function expect_commands
 		args_array[i]=${!i}
 	done
 	for (( i = 3; i <= $#; i++ )); do		
-		if grep -FExq "${args_array[$i]}\/? ?" "$hist_file"
+		if grep -Fxq "${args_array[$i]}" "$hist_file" || grep -Fxq "${args_array[$i]}/" "$hist_file" || grep -Fxq "${args_array[$i]} " "$hist_file"
 		then
 			found_arg="${args_array[$i]}"
 			response "$found_arg" "$2" $COUNT
@@ -89,7 +89,7 @@ function test_command {
 				expect_command "cd .." "get back one directory level" "gets back one directory level"
 				;;
 			8 )
-				expect_commands "list hidden files in vertical column layout" "lists dotfiles in a vertical column layout" "ls -al" "ls -la" "ls -l -a" "ls -a -l"
+				expect_command "ls -l" "list files in vertical column layout" "lists files and directories in a vertical column layout"
 				;;
 		esac
 	else 

@@ -12,6 +12,6 @@ Click on the terminal window and:
 5. Create a file with the name: `test-file1.txt` inside the `test-dir1` directory
 6. List the hidden files
 7. Get back to the `~/workspace` directory
-8. List hidden files and directories in a vertical column layout using a single hyphen. Place hidden file options first
+8. List files and directories in a vertical column layout.
 
 |||
