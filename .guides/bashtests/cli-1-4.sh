@@ -51,14 +51,14 @@ function expect_commands
 
 function tell_error 
 {
-	echo -e "ERROR: Task $2. Expected: $1. Try again."
+	echo -e "Error: Task $2. Expected: $1. Try again."
 	test_command
 	# return 1
 }
 
 function response 
 {
-	echo -e "right: Task $3. The '${1}' command ${2}"
+	echo -e "Correct: Task $3. The '${1}' command ${2}"
 	(( RES_HIST ++ ))
 	test_command
 }
