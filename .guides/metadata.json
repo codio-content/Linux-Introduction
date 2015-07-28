@@ -9,7 +9,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: clear",
+     "path": "#terminal: bashtest 1 | clear",
      "panel": 0,
      "action": "open"
     }
@@ -17,7 +17,9 @@
    "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/The-Command-Line-Interface--CLI-2e52.md"
+   "content-file": ".guides/content/The-Command-Line-Interface--CLI-2e52.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "35bc9af6-e87c-f7e9-7c13-c65e1286d027",
@@ -36,7 +38,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Inputs-and-outputs-35bc.md"
+   "content-file": ".guides/content/Inputs-and-outputs-35bc.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "df6769f7-4f98-e077-1307-54c3c30687e5",
@@ -55,7 +59,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Program-execution-df67.md"
+   "content-file": ".guides/content/Program-execution-df67.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "39654f75-3210-f8bc-568d-3047b884544",
@@ -74,7 +80,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/The-CLI-programs-3965.md"
+   "content-file": ".guides/content/The-CLI-programs-3965.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "e30fe1ce-98fb-9bf9-4514-51815e6f41e",
@@ -93,7 +101,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/The-current-directory--e30f.md"
+   "content-file": ".guides/content/The-current-directory--e30f.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "6372ca4-61d4-492-fda6-62955fce99a3",
@@ -112,7 +122,9 @@
    "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge--Getting-your-first-outputs-6372.md"
+   "content-file": ".guides/content/Challenge--Getting-your-first-outputs-6372.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "95491f61-2ac0-e722-a85e-4bfa2fbe8c8b",
@@ -131,7 +143,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/The-current-directory--file-tree-9549.md"
+   "content-file": ".guides/content/The-current-directory--file-tree-9549.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "ac7c3205-b9a-25ef-a9e3-1bf949bbd80c",
@@ -150,7 +164,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/The-home-directory-ac7c.md"
+   "content-file": ".guides/content/The-home-directory-ac7c.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "e0456bf6-e567-d9f5-e462-2a123e9193e1",
@@ -169,7 +185,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Listing-directory-contents-e045.md"
+   "content-file": ".guides/content/Listing-directory-contents-e045.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "89fc75cb-4530-fb08-2078-8a07dafdd91",
@@ -188,7 +206,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Hidden-files-89fc.md"
+   "content-file": ".guides/content/Hidden-files-89fc.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "ada623ff-6158-edb7-4969-828440ea474",
@@ -207,7 +227,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Command-options-ada6.md"
+   "content-file": ".guides/content/Command-options-ada6.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "6dc1c71-2071-de61-1c9a-a35ad48a3c3c",
@@ -215,7 +237,9 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/The-ls--a-option-in-depth-6dc1.md"
+   "content-file": ".guides/content/The-ls--a-option-in-depth-6dc1.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "bda72de1-70db-6cb9-6c8a-7d3568a2640e",
@@ -234,7 +258,9 @@
    "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge--The-list-command-bda7.md"
+   "content-file": ".guides/content/Challenge--The-list-command-bda7.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "de6c4f31-aa3f-76db-22f0-c3d3e046b7f3",
@@ -242,7 +268,9 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Changing-directories-de6c.md"
+   "content-file": ".guides/content/Changing-directories-de6c.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "f6cbaf8c-fa0d-2fe1-5d79-4d2abdc3f104",
@@ -250,7 +278,9 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Navigating-backwards-f6cb.md"
+   "content-file": ".guides/content/Navigating-backwards-f6cb.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "dac22075-2c75-2134-8893-ea4c9a3a6161",
@@ -269,7 +299,9 @@
    "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge--Navigating-the-file-system-dac2.md"
+   "content-file": ".guides/content/Challenge--Navigating-the-file-system-dac2.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "288b825f-9f9-82dc-6546-cc14447459fd",
@@ -288,7 +320,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Creating-directories-288b.md"
+   "content-file": ".guides/content/Creating-directories-288b.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "576d6b21-263b-acd3-ff2e-694f2026514d",
@@ -307,7 +341,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Creating-files-576d.md"
+   "content-file": ".guides/content/Creating-files-576d.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "f142e320-9a1f-f1ce-64ea-9b12a97fb93b",
@@ -326,7 +362,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Better-listing-f142.md"
+   "content-file": ".guides/content/Better-listing-f142.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "8f97425e-5fe5-e4a8-4a91-ef36a1b7c871",
@@ -345,7 +383,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Wrapping-up-8f97.md"
+   "content-file": ".guides/content/Wrapping-up-8f97.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "20db4056-31fe-d7-3423-f9457fde14a",
@@ -364,7 +404,9 @@
    "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge--Creating-files-and-directories-20db.md"
+   "content-file": ".guides/content/Challenge--Creating-files-and-directories-20db.md",
+   "chapter": false,
+   "reset": []
   }
  ],
  "theme": "charcoal",

@@ -1,50 +1,9 @@
 #!/bin/bash
-#bashtest init
+# chmod files
 
 arg=$1
 
-# Helper funcs
-function changedir {
-	cd "$1"
-}
-
-function runtestfile {
-	case $arg in
-    cli-1-1 ) chmod +x "${BASHDIR}/bashtests/${arg}.sh"
-		"$arg.sh"
-		;;
-    cli-1-2 ) chmod +x "${BASHDIR}/bashtests/${arg}.sh"
-		"$arg.sh"
-		;;
-    cli-1-3 ) chmod +x "${BASHDIR}/bashtests/${arg}.sh"
-		"$arg.sh"
-		;;
-    cli-1-4 ) chmod +x "${BASHDIR}/bashtests/${arg}.sh"
-		"$arg.sh"
-		;;
-	cli-1-test ) chmod +x "${BASHDIR}/bashtests/${arg}"
-		$arg
-		;;
-	cli-2-test ) chmod +x "${BASHDIR}/bashtests/${arg}"
-		$arg
-		;;
-	cli-3-test ) chmod +x "${BASHDIR}/bashtests/${arg}"
-		$arg
-		;;
-	cli-4-test ) chmod +x "${BASHDIR}/bashtests/${arg}"
-		$arg
-		;;
-	mkdir-test ) chmod +x "${BASHDIR}/bashtests/${arg}"
-		$arg
-	  ;;
-	*) echo "The $arg argument can't be recognized. Try again."
-	   ;;
-	esac
-}
-
-
-if [[ -z "$arg" ]]; then
-	echo "The 'bashtest' command needs an argument in order to be executed.";
-else
-	runtestfile
-fi
+file_count=$(ls /home/codio/workspace/.guides/bashtests/*.sh | wc -l)                                                                      
+for (( i = 1; i <= $file_count; i++ )); do                                                                                                 
+        chmod +x "/home/codio/workspace/.guides/bashtests/cli-$arg-$i.sh"                                                                     
+done
