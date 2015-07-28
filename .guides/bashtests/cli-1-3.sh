@@ -72,7 +72,7 @@ function tell_error
 {
 	echo -e "[Error  ] Task $2. Expected: $1. Try again."
 	test_command
-	# return 1
+	return 1
 }
 
 function response 
@@ -97,6 +97,7 @@ function test_command {
 				;;
 		esac
 	else 
+        return 0
 		reset_history
 	fi
 }

@@ -1,46 +1,14 @@
 cli-1-4
-bashtest cli-1-4
-clear
-ls 
-pwd
+echo cli-1-4 > ~/.bash_history | clear
 cli-1-4
-bashtest cli-1-4
+ls
 cli-1-4
-bashtest cli-1-4
-cli-1-4
-bashtest cli-1-4
-clear
-man grep
-clear
-cli-1-4
-bashtest cli-1-4
-mkdir test-dir1/
-cli-1-4
-bashtest cli-1-4
-cli-1-4
-bashtest cli-1-4
-git a
-git a 
-git c "Bashtest bugs"
-git push
-gi a
-git a
-git c "Challenge answers formatting" 
-git push
-cli-1-4
-bashtest cli-1-4
 cd test-dir1/
 cli-1-4
-bashtest cli-1-4
-touch test-file1.txt
+pwd
 cli-1-4
-bashtest cli-1-4
+ls -l
 ls -a
 cli-1-4
-bashtest cli-1-4
 cd ..
-cli-1-4
-bashtest cli-1-4
-ls -l
-ls -l
 cli-1-4
