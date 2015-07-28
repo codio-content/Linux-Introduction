@@ -3,10 +3,10 @@
 
 bash_history=~/.bash_history
 check_file=cli-1-1
-hist_file="$BASHDIR/bashtests/$check_file.txt"
+hist_file="/home/codio/workspace/.guides/bashtests/$check_file.txt"
 
 echo "$check_file" >> $bash_history
-grep -A2000 -e "^$check_file" $bash_history > "$BASHDIR/bashtests/${check_file}.txt"
+grep -A2000 -e "^$check_file" $bash_history > "/home/codio/workspace/.guides/bashtests/${check_file}.txt"
 
 # Must match for erasing history
 RES_HIST=0

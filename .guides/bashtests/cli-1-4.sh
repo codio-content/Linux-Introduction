@@ -2,6 +2,7 @@
 # bash_history edit
 
 bash_history=~/.bash_history
+BASHDIR=/home/codio/workspace/.guides
 check_file=cli-1-4
 hist_file="$BASHDIR/bashtests/$check_file.txt"
 
