@@ -38,7 +38,7 @@ function expect_commands
 		args_array[i]=${!i}
 	done
 	for (( i = 2; i <= $#; i++ )); do		
-		if grep -Fxq "${args_array[$i]}" "$hist_file" || grep -Fxq "${args_array[$i]}/" "$hist_file" || grep -Fxq "${args_array[$i]} " "$hist_file"
+		if grep -Fxqe "${args_array[$i]}" "$hist_file" || grep -Fxqe "${args_array[$i]}/" "$hist_file" || grep -Fxqe "${args_array[$i]} " "$hist_file" || grep -FxE "${args_array[$i]}" "$hist_file"
 		then
 			found_arg="${args_array[$i]}"
 			response "$1" $COUNT
