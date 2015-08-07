@@ -18,7 +18,7 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/The-Command-Line-Interface--CLI-2e52.md",
-   "chapter": false,
+   "chapter": true,
    "reset": []
   },
   {
@@ -102,7 +102,7 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/The-current-directory--e30f.md",
-   "chapter": false,
+   "chapter": true,
    "reset": []
   },
   {
@@ -186,7 +186,7 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Listing-directory-contents-e045.md",
-   "chapter": false,
+   "chapter": true,
    "reset": []
   },
   {
@@ -266,10 +266,11 @@
    "id": "de6c4f31-aa3f-76db-22f0-c3d3e046b7f3",
    "title": "Changing directories",
    "files": [],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Changing-directories-de6c.md",
-   "chapter": false,
+   "chapter": true,
    "reset": []
   },
   {
@@ -321,7 +322,7 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Creating-directories-288b.md",
-   "chapter": false,
+   "chapter": true,
    "reset": []
   },
   {
@@ -342,7 +343,7 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Creating-files-576d.md",
-   "chapter": false,
+   "chapter": true,
    "reset": []
   },
   {
@@ -363,7 +364,7 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Better-listing-f142.md",
-   "chapter": false,
+   "chapter": true,
    "reset": []
   },
   {

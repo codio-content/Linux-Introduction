@@ -30,25 +30,6 @@ function expect_command
 	fi
 }
 
-function expect_commands 
-{
-	args_array=()
-	for (( i = 2; i <= $#; i++ )); do
-		args_array[i]=${!i}
-	done
-	for (( i = 2; i <= $#; i++ )); do		
-		if grep -Fxqe "${args_array[$i]}" "$hist_file" || grep -Fxqe "${args_array[$i]}/" "$hist_file" || grep -Fxqe "${args_array[$i]} " "$hist_file" || grep -FxE "${args_array[$i]}" "$hist_file"
-		then
-			found_arg="${args_array[$i]}"
-			response "$1" $COUNT
-			return
-		else
-			tell_error "$1" $COUNT
-			return
-		fi
-	done
-}
-
 function expect_file 
 {
 	if [[ -f "$1" ]]; then
@@ -94,7 +75,6 @@ function test_command {
 		esac
 	else 
         return 0
-		reset_history
 	fi
 }
 

@@ -1,3 +1,11 @@
 cli-1-2
 echo cli-1-2 > ~/.bash_history | clear
+node /home/codio/workspace/.guides/bashtests/cli-1-2.sh
+node /home/codio/workspace/.guides/bashtests/cli-1-2.sh
+cli-1-2
+bash /home/codio/workspace/.guides/bashtests/cli-1-2.sh
+ls
+cli-1-2
+bash /home/codio/workspace/.guides/bashtests/cli-1-2.sh
+ls -a
 cli-1-2
