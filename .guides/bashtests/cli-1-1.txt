@@ -1,1 +1,5 @@
 cli-1-1
+echo cli-1-1 > ~/.bash_history | clear
+cli-1-1
+whoami
+cli-1-1
