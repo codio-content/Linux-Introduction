@@ -24,7 +24,8 @@ function expect_command
 {
 	if grep -Fxq "$1" "$hist_file"
 	then
-		response "$2" $COUNT
+        test_command
+		# response "$2" $COUNT
 	else 
 		tell_error "$2" $COUNT
 	fi
@@ -51,7 +52,7 @@ function expect_directory
 function tell_error 
 {
 	echo -e "[Error  ] Task $2. Expected: $1. Try again."
-	test_command
+	# test_command
 	return 1
 }
 
@@ -74,6 +75,7 @@ function test_command {
 				;;			
 		esac
 	else 
+        echo "Well done!"
         return 0
 	fi
 }

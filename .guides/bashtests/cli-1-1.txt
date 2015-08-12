@@ -1,10 +1,7 @@
 cli-1-1
-echo cli-1-1 > ~/.bash_history | clear
-pwd
 cli-1-1
+whomai
 whoami
-cli-1-1
-pwd
 cli-1-1
 pwd
 cli-1-1
