@@ -16,5 +16,5 @@ Additionaly, the `touch` command needs an _argument_, in this case, the argument
 
 ---
 
-__What is a *file extension*?__ File extensions are also known as _file formats_. You may be familiar with _.doc_ or _.xls_ for _Microsoft Word_ and _Microsoft Excel_ respectively. In most cases _file extensions_ determine the program that should or can read the file.
+__What is a *file extension*?__ File extensions are also known as _file formats_. You may be familiar with `.doc, .docx, .xls or .xlsx` for _Microsoft Word_ and _Microsoft Excel respectively_. In most cases _file extensions_ determine the program that should or can read the file.
 |||

@@ -1,10 +1,10 @@
-## What does the `-a` characters do
+## What does the -a character do
 
-Executing the `ls` command output only _the visible_ files on our current directory, however, as the _file tree_ displays, there are some hidden directories and hidden files inside it.
+Executing the `ls` command outputs only _the visible_ files on our current directory, however, as the _file tree_ displays, there are some hidden directories and hidden files inside it.
 
 ### Introducing: command options
 
-After executing the `ls -a` command, we've gotten a larger output:
+After executing the `ls -a` command, we’ve got a larger output:
 
 ```
 codio ~/workspace $ ls -a

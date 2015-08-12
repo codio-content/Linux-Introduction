@@ -107,7 +107,7 @@
   },
   {
    "id": "6372ca4-61d4-492-fda6-62955fce99a3",
-   "title": "Challenge: Getting your first outputs",
+   "title": "Challenge",
    "files": [
     {
      "path": "#tabs",
@@ -122,7 +122,7 @@
    "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge--Getting-your-first-outputs-6372.md",
+   "content-file": ".guides/content/Challenge-6372.md",
    "chapter": false,
    "reset": []
   },
@@ -243,7 +243,7 @@
   },
   {
    "id": "bda72de1-70db-6cb9-6c8a-7d3568a2640e",
-   "title": "Challenge: The list command",
+   "title": "Challenge",
    "files": [
     {
      "path": "#tabs",
@@ -258,7 +258,7 @@
    "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge--The-list-command-bda7.md",
+   "content-file": ".guides/content/Challenge-bda7.md",
    "chapter": false,
    "reset": []
   },
@@ -285,7 +285,7 @@
   },
   {
    "id": "dac22075-2c75-2134-8893-ea4c9a3a6161",
-   "title": "Challenge: Navigating the file system",
+   "title": "Challenge",
    "files": [
     {
      "path": "#tabs",
@@ -300,7 +300,7 @@
    "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge--Navigating-the-file-system-dac2.md",
+   "content-file": ".guides/content/Challenge-dac2.md",
    "chapter": false,
    "reset": []
   },
@@ -390,7 +390,7 @@
   },
   {
    "id": "20db4056-31fe-d7-3423-f9457fde14a",
-   "title": "Challenge: Creating files and directories",
+   "title": "Challenge",
    "files": [
     {
      "path": "#tabs",

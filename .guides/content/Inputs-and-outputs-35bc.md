@@ -1,6 +1,6 @@
 Let's review what we've done.
 
-After typing the `whoami` command, you've probably got something like: 
+After typing the `whoami` command, you will have got:
 
 ```
 codio ~/workspace $ whoami

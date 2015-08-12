@@ -1,6 +1,6 @@
 ## Introduction
 
-The command line interface, better know as CLI, __is just another way to interact with the computer.__ 
+The command line interface, better known as CLI, __is just another way to interact with the computer.__ 
 
 This technology works with text commands typed line by line. There is a CLI enabled in the left panel, lets get our current username:
 

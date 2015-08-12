@@ -1,6 +1,8 @@
 ## Navigating directories using the CLI?
 
-_Bash_ provides a widely used command called `cd` or _change directories_ command that allows the user to navigate through directories, in order to see how it works perform the following: 
+_Bash_ provides a widely used command called `cd` or _change directories_ command that allows the user to navigate through directories.
+
+In order to see how it works perform the following: 
 
 1. Click on the terminal window
 2. Type `ls` to list the current directory contents, _return key_
