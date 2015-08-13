@@ -15,6 +15,7 @@ function init_workspace {
 function reset_workspace {
 	rm -r "${WORKSPACE}dir1"
 	rm -r "${WORKSPACE}empty-file.txt"
+    rm -r "${WORKSPACE}test-dir1"
     > ~/.bash_history
 	echo "Reseting project files and directories"
 	sleep 2

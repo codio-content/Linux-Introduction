@@ -1,0 +1,7 @@
+cli-1-2
+echo cli-1-2 > /home/codio/.bash_history | clear
+cli-1-2
+ls
+cli-1-2
+ls -a
+cli-1-2

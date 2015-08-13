@@ -1,0 +1,9 @@
+cli-1-3
+echo cli-1-3 > /home/codio/.bash_history | clear
+cli-1-3
+pwd
+cli-1-3
+cd dir1/
+cli-1-3
+cd ..
+cli-1-3

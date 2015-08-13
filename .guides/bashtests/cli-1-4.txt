@@ -1,3 +1,1 @@
 cli-1-4
-echo cli-1-4 > ~/.bash_history | clear
-cli-1-4

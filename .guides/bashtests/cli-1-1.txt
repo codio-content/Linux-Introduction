@@ -1,3 +1,20 @@
 cli-1-1
+cli-1-1
 echo cli-1-1 > ~/.bash_history | clear
+clear
+clear
+vim ~/.bash_profile 
+clear
+> ~/.bashrc
+vim ~/.bashrc 
+clear
+clear
+cat ~/.bashrc
+clear
+bash
+cli-1-1
+cat ~/.bash_history 
+whoami
+cli-1-1
+pwd
 cli-1-1
