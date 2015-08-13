@@ -13,56 +13,6 @@ RES_HIST=0
 COUNT=0
 QCOUNT=2
 
-# Reset history
-function reset_history {
-	if [[ $RES_HIST -eq $QCOUNT ]]; then
-		echo "$arg" > ~/.bash_history
-	fi
-}
-
-function expect_command 
-{
-	if grep -Fxq "$1" "$hist_file"
-	then
-        test_command
-		# response "$2" $COUNT
-	else 
-		tell_error "$2" $COUNT
-	fi
-}
-
-function expect_file 
-{
-	if [[ -f "$1" ]]; then
-		response "$2" $COUNT
-	else 
-		tell_error "$2" $COUNT
-	fi
-}
-
-function expect_directory
-{
-	if [[ -d "$1" ]]; then
-		response "$2" $COUNT
-	else 
-		tell_error "$2" $COUNT
-	fi
-}
-
-function tell_error 
-{
-	echo -e "[Error  ] Task $2. Expected: $1. Try again."
-	# test_command
-	return 1
-}
-
-function response 
-{
-	echo -e "[Correct] Task $2. ${1}"
-	(( RES_HIST ++ ))
-	test_command
-}
-
 function test_command {
 	(( COUNT ++ ))
 	if [[ $COUNT -le $QCOUNT ]]; then
@@ -75,8 +25,8 @@ function test_command {
 				;;			
 		esac
 	else 
-        echo "Well done!"
-        return 0
+    echo "Well done!"
+    return 0
 	fi
 }
 
