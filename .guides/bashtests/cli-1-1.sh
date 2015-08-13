@@ -52,14 +52,12 @@ function expect_directory
 function tell_error 
 {
 	echo -e "[Error  ] Task $2. Expected: $1. Try again."
-	# test_command
 	return 1
 }
 
 function response 
 {
 	echo -e "[Correct] Task $2. ${1}"
-	(( RES_HIST ++ ))
 	test_command
 }
 

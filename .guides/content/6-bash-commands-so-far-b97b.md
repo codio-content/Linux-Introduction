@@ -1,0 +1,1 @@
+Now that you are comfortable interacting with the computer through CLI commands, lets deepen our knowledge by executing commands that create files and directories directly from the CLI.
