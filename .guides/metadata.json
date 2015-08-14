@@ -411,15 +411,16 @@
   },
   {
    "id": "b97b89cc-30af-eb1b-74fe-f9d2e46bacb4",
-   "title": "6 bash commands so far",
+   "title": "That's all folks",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/What-s-next-b97b.md",
+   "content-file": ".guides/content/6-bash-commands-so-far-b97b.md",
    "chapter": false,
    "reset": []
   }
  ],
  "theme": "charcoal",
- "scripts": []
+ "scripts": [],
+ "lexikonTopic": ""
 }

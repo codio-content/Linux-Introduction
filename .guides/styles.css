@@ -1,0 +1,903 @@
+.codio-assessment {
+  display: flex;
+  width: 100% ;
+  flex-direction: column;
+}
+
+.codio-assessment-name {
+  font-size: 150%;
+}
+
+.codio-button-result.hide {
+  display: none;
+}
+
+.codio-button-result {
+  font-size: 100%;
+}
+
+.codio-assessment-last-run {
+  font-size: 70%;
+}
+
+.codio-assessment-last-run span {
+  color: #888;
+}
+
+.codio-button.codio-button-type-assessment {
+  text-shadow: none;
+  border-radius: 2px;
+  text-transform: none;
+}
+
+.codio-button.codio-button-type-assessment-reset {
+  margin-left: 10px;
+  text-transform: none;
+}
+
+/* Radio buttons*/
+
+.codio-button-type-assessment-multiple-radio {
+  margin: 1em 0;
+  clear: both;
+}
+.codio-button-type-assessment-multiple-radio:first-of-type {
+  margin-top: 2em;
+}
+
+.codio-button-type-assessment-multiple-radio:last-of-type {
+  margin-bottom: 2em;
+}
+
+.codio-button-type-assessment-multiple-radio input {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.codio-button-type-assessment-multiple-radio label {
+  display: block;
+}
+
+.codio-button-type-assessment-multiple-radio label i {
+  background-color: rgba(204, 0, 102, 0);
+  border: 2px solid #d6d9e6;
+  height: 14px;
+  width: 14px;
+  border-radius: 12px;
+  content: '';
+  display: inline-block;
+  position: absolute;
+  transition: border 0.3s ease-in-out;
+  margin-top: 4px;
+}
+
+.codio-button-type-assessment-multiple-radio:hover label i {
+  border: 2px solid #6f9ffc;
+  cursor: pointer;
+}
+
+.codio-button-type-assessment-multiple-radio label i::before {
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  content: '';
+  display: inline-block;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+.codio-button-type-assessment-multiple-radio.codio-assessment-multiple-done:hover label i {
+  border: 2px solid #d6d9e6;
+}
+
+.codio-button-type-assessment-multiple-radio input:checked + label i {
+  border: 2px solid #6f9ffc;
+}
+
+.codio-button-type-assessment-multiple-radio input:checked + label i::before {
+  background-color: #6f9ffc;
+}
+
+.codio-button-type-assessment-multiple-radio.codio-assessment-multiple-ok:hover input:checked + label i,
+.codio-button-type-assessment-multiple-radio.codio-assessment-multiple-ok input:checked + label i,
+.codio-button-type-assessment-multiple-radio.codio-assessment-multiple-ok:hover label i,
+.codio-button-type-assessment-multiple-radio.codio-assessment-multiple-ok label i {
+  border: 2px solid #99e4a9;
+}
+
+.codio-button-type-assessment-multiple-radio.codio-assessment-multiple-ok input:checked + label i::before,
+.codio-button-type-assessment-multiple-radio.codio-assessment-multiple-ok label i::before {
+  background-color: #99e4a9;
+}
+
+.codio-button-type-assessment-multiple-radio.codio-assessment-multiple-wrong:hover input:checked + label i,
+.codio-button-type-assessment-multiple-radio.codio-assessment-multiple-wrong input:checked + label i {
+  border: 2px solid #e86a6b;
+}
+
+.codio-button-type-assessment-multiple-radio.codio-assessment-multiple-wrong input:checked + label i::before {
+  background-color: #e86a6b;
+}
+
+.codio-assessment a.codio-assessment-disabled {
+  cursor: not-allowed;
+}
+
+/* Checkboxes*/
+
+.codio-button-type-assessment-multiple-checkbox {
+  margin: 1em 0;
+  clear: both;
+}
+
+.codio-button-type-assessment-multiple-checkbox:first-of-type {
+  margin-top: 2em;
+}
+
+.codio-button-type-assessment-multiple-checkbox:last-of-type {
+  margin-bottom: 2em;
+}
+
+.codio-button-type-assessment-multiple-checkbox input {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.codio-button-type-assessment-multiple-checkbox label i {
+  background-color: #d5dae6;
+  border-radius: 2px;
+  height: 14px;
+  width: 14px;
+  padding: 4px;
+  content: '';
+  display: inline-block;
+  margin-right: 10px;
+  position: absolute;
+  margin-top: 1px;
+}
+
+.codio-button-type-assessment-multiple-checkbox label {
+  display: block;
+}
+
+.codio-button-type-assessment-multiple-checkbox label i {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.codio-button-type-assessment-multiple-checkbox:hover label i {
+  background-color: #6f9ffc;
+}
+
+.codio-button-type-assessment-multiple-checkbox.codio-assessment-multiple-done:hover label i {
+  background-color: #d6d9e6;
+}
+
+.codio-button-type-assessment-multiple-checkbox input:checked + label i {
+  background-image: url("https://d2g7ua7d94r3fl.cloudfront.net/assets/images/guides/checkmark-6db2a12b.svg");
+  background-size: 30px;
+  background-position-x: -4px;
+  background-position-y: -3px;
+  background-color: #6f9ffc;
+}
+
+.codio-button-type-assessment-multiple-checkbox.codio-assessment-multiple-ok:hover input:checked + label i,
+.codio-button-type-assessment-multiple-checkbox.codio-assessment-multiple-ok input:checked + label i,
+.codio-button-type-assessment-multiple-checkbox.codio-assessment-multiple-ok:hover label i,
+.codio-button-type-assessment-multiple-checkbox.codio-assessment-multiple-ok label i {
+  background-color: #99e4a9;
+}
+
+.codio-button-type-assessment-multiple-checkbox.codio-assessment-multiple-ok input:checked + label i::before,
+.codio-button-type-assessment-multiple-checkbox.codio-assessment-multiple-ok label i::before {
+  background-color: #99e4a9;
+}
+
+.codio-button-type-assessment-multiple-checkbox.codio-assessment-multiple-wrong:hover input:checked + label i,
+.codio-button-type-assessment-multiple-checkbox.codio-assessment-multiple-wrong input:checked + label i {
+  background-color: #e86a6b;
+}
+
+.codio-button-type-assessment-multiple-checkbox.codio-assessment-multiple-wrong input:checked + label i::before {
+  background-color: #e86a6b;
+}
+
+.codio-button-type-assessment-multiple-answer {
+  margin: 0;
+  padding-left: 30px;
+  clear: both;
+}
+
+.codio-button-type-assessment-multiple-answer p {
+  margin: 0;
+}
+
+/* Fill in the blanks */
+
+/*   simple */
+
+.codio-fill-in-the-blanks {
+  margin-bottom: 2em;
+}
+
+.codio-fib-simple-input {
+  font-family: 'Chaparral W01';
+  font-weight: 300;
+  font-size: 1em;
+  display: inline-block;
+  padding: 0 .2em;
+  background-color: #eceff6;
+  border-radius: 2px;
+  line-height: 1.3em;
+  border: none;
+}
+
+.codio-fib-simple-input:focus {
+  outline: none;
+}
+
+.codio-fill-in-the-blanks .codio-md-line {
+  margin: 0;
+  line-height: 1.8em;
+}
+
+.codio-assessment-fib-ok,
+.codio-assessment-fib-wrong {
+  padding: .2em;
+  border-radius: 2px;
+}
+.codio-assessment-fib-ok {
+  background-color: #e9fff2;
+  border: 1px solid #99e4a9;
+}
+
+.codio-assessment-fib-wrong {
+  background-color: #fff0ec;
+  border: 1px solid #e86a6b;
+  text-decoration: line-through;
+}
+
+/* Codio Blocks */
+
+.codio-warning,
+.codio-definition,
+.codio-important,
+.codio-topic,
+.codio-challenge,
+.codio-info,
+.codio-curiculum,
+.codio-guidance {
+  background-image: url("https://d2g7ua7d94r3fl.cloudfront.net/assets/images/guides/blocks/quote-098d633e.svg");
+  background-repeat: no-repeat;
+  padding-left: 65px;
+  margin: 2em 0 2em -45px;
+  background-position: 0px 4px;
+}
+
+.codio-warning h1,
+.codio-definition h1,
+.codio-important h1,
+.codio-topic h1,
+.codio-challenge h1,
+.codio-info h1,
+.codio-curiculum h1,
+.codio-guidance h1,
+.codio-warning h2,
+.codio-definition h2,
+.codio-important h2,
+.codio-topic h2,
+.codio-challenge h2,
+.codio-info h2,
+.codio-curiculum h2,
+.codio-guidance h2,
+.codio-warning h3,
+.codio-definition h3,
+.codio-important h3,
+.codio-topic h3,
+.codio-challenge h3,
+.codio-info h3,
+.codio-curiculum h3,
+.codio-guidance h3 {
+  font-size: 133%;
+  font-style: normal;
+  margin-bottom: 0;
+  margin-top: 0;
+  border: none;
+  padding-bottom: 0;
+}
+
+.codio-warning > p:first-of-type,
+.codio-definition > p:first-of-type,
+.codio-important > p:first-of-type,
+.codio-topic > p:first-of-type,
+.codio-challenge > p:first-of-type,
+.codio-info > p:first-of-type,
+.codio-curiculum > p:first-of-type,
+.codio-guidance > p:first-of-type {
+  margin-top: 0;
+}
+
+.codio-info {
+  background-image: url("https://d2g7ua7d94r3fl.cloudfront.net/assets/images/guides/blocks/info-2b8a0bc3.svg");
+}
+
+.codio-definition {
+  background-image: url("https://d2g7ua7d94r3fl.cloudfront.net/assets/images/guides/blocks/definition-cbf23e9d.svg");
+}
+
+.codio-warning {
+  background-image: url("https://d2g7ua7d94r3fl.cloudfront.net/assets/images/guides/blocks/warning-4aeade57.svg");
+}
+.codio-curiculum,
+.codio-topic {
+  background-image: url("https://d2g7ua7d94r3fl.cloudfront.net/assets/images/guides/blocks/topic-46ef3f4a.svg");
+}
+
+.codio-challenge {
+  background-image: url("https://d2g7ua7d94r3fl.cloudfront.net/assets/images/guides/blocks/challenge-3cb7405e.svg");
+}
+
+.codio-challenge-multiple {
+  background-image: url("https://d2g7ua7d94r3fl.cloudfront.net/assets/images/guides/blocks/mcq-4eb73a6b.svg");
+  background-size: 40px;
+}
+
+.codio-challenge-fill {
+  background-image: url("https://d2g7ua7d94r3fl.cloudfront.net/assets/images/guides/blocks/fib-b6cdc77c.svg");
+  background-size: 40px;
+}
+
+.codio-guidance {
+  background-image: url("https://d2g7ua7d94r3fl.cloudfront.net/assets/images/guides/blocks/guidance-bf206f8a.svg");
+}
+
+/* image-table */
+
+.codio-image-table {
+
+}
+
+.codio-image-table h3 {
+
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  font-size: 100%;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  background-color: #222324;
+  margin: 33px 0 13px 0;
+}
+
+/* image */
+
+.codio-image {
+  max-width: 500px;
+  margin: 1em auto;
+}
+
+.codio-image img {
+  border: 1px solid #c7d5f6;
+  border-radius: 2px;
+}
+
+.codio-image p {
+  margin: 0;
+}
+
+.codio-image p + p {
+  font-size: 1em;
+  text-align: center;
+  margin: 1em 0;
+}
+
+/* interactive table */
+.codio-interactive-table {
+}
+
+/* codio button */
+a.codio-button {
+  text-shadow: none;
+  font-style: normal;
+  display: inline-block;
+  padding: 4px 18px 2px;
+  font-weight: normal;
+  font-size: 75%;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background: #5988e1;
+  border-radius: 2px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Brandon Grotesque W01';
+}
+
+.codio-button-result {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  line-height: 25px;
+  position: relative;
+  padding: 1em 65px;
+  font-weight: normal;
+}
+
+.codio-button-result:after {
+  position: absolute;
+  display: inline-block;
+  left: 21px;
+  bottom: 100%;
+  content: '';
+  border-left: 8px solid transparent;
+  border-bottom: 9px solid #fff;
+  border-right: 9px solid transparent;
+}
+
+
+.codio-button-result:before {
+  position: absolute;
+  display: inline-block;
+  left: 19px;
+  bottom: 100%;
+  content: '';
+  border-left: 10px solid transparent;
+  border-bottom: 11px solid #ddd;
+  border-right: 10px solid transparent;
+}
+
+.codio-button-result-out:before {
+  position: absolute;
+  display: inline-block;
+  left: 20px;
+  top: 26px;
+  content: '';
+}
+
+.codio-button-result.pass .codio-button-result-out:before {
+  border-left: 10px solid transparent;
+  border-bottom: 11px solid #b8e5a6;
+  border-right: 10px solid transparent;
+}
+
+.codio-button-result.fail .codio-button-result-out:before {
+  border-left: 10px solid transparent;
+  border-top: 11px solid red;
+  border-right: 10px solid transparent;
+}
+
+.codio-button-result.progress .codio-button-result-out:before {
+  content: url("https://d2g7ua7d94r3fl.cloudfront.net/assets/images/guides/spinner-black-3136a085.gif");
+  top: 23px;
+  left: 24px;
+}
+
+.codio-button-result.invalid .codio-button-result-out:before {
+  border-left: 10px solid transparent;
+  border-top: 11px solid red;
+  border-right: 10px solid transparent;
+}
+
+.codio-button-result .codio-button-result-out {
+  overflow: auto;
+  font-style: italic;
+  font-family: 'Chaparral W01';
+  margin: 0;
+}
+
+.codio-assessment-disabled {
+  opacity: 0.7;
+}
+
+/* highilight css */
+/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+  -webkit-text-size-adjust: none;
+}
+
+.hljs-comment,
+.hljs-template_comment,
+.diff .hljs-header,
+.hljs-javadoc {
+  color: #998;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.css .rule .hljs-keyword,
+.hljs-winutils,
+.javascript .hljs-title,
+.nginx .hljs-title,
+.hljs-subst,
+.hljs-request,
+.hljs-status {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-number,
+.hljs-hexcolor,
+.ruby .hljs-constant {
+  color: #008080;
+}
+
+.hljs-string,
+.hljs-tag .hljs-value,
+.hljs-phpdoc,
+.hljs-dartdoc,
+.tex .hljs-formula {
+  color: #d14;
+}
+
+.hljs-title,
+.hljs-id,
+.scss .hljs-preprocessor {
+  color: #900;
+  font-weight: bold;
+}
+
+.javascript .hljs-title,
+.hljs-list .hljs-keyword,
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-class .hljs-title,
+.hljs-type,
+.vhdl .hljs-literal,
+.tex .hljs-command {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-tag .hljs-title,
+.hljs-rules .hljs-property,
+.django .hljs-tag .hljs-keyword {
+  color: #000080;
+  font-weight: normal;
+}
+
+.hljs-attribute,
+.hljs-variable,
+.lisp .hljs-body {
+  color: #008080;
+}
+
+.hljs-regexp {
+  color: #009926;
+}
+
+.hljs-symbol,
+.ruby .hljs-symbol .hljs-string,
+.lisp .hljs-keyword,
+.clojure .hljs-keyword,
+.scheme .hljs-keyword,
+.tex .hljs-special,
+.hljs-prompt {
+  color: #990073;
+}
+
+.hljs-built_in {
+  color: #0086b3;
+}
+
+.hljs-preprocessor,
+.hljs-pragma,
+.hljs-pi,
+.hljs-doctype,
+.hljs-shebang,
+.hljs-cdata {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.diff .hljs-change {
+  background: #0086b3;
+}
+
+.hljs-chunk {
+  color: #aaa;
+}
+
+footer {
+  text-align: center;
+  margin-top: 80px;
+  font-family: 'Brandon Grotesque W01';
+}
+
+footer a {
+  text-decoration: none;
+  background-image: none;
+  line-height: 2em;
+  border-radius: 2em;
+  padding: 0px 8px;
+  background-color: transparent;
+  border: 1px solid;
+  text-transform: none;
+  min-width: 1em;
+  font-size: 0.9em;
+  color: #8c97b2;
+}
+
+footer a span::after {
+  background-image: url('https://d2g7ua7d94r3fl.cloudfront.net/assets/images/guides/footer-next-69f65caf.png');
+  background-size: 1em 1em;
+  width: 1em;
+  height: 1em;
+  content: " ";
+  display: inline-block;
+  font-size: 1em;
+  vertical-align: middle;
+  margin-bottom: .25em;
+  margin-left: 0.1em;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  margin: 0 60px 30px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.rendered-markdown {
+  font-family: 'Chaparral W01';
+  max-width: 660px;
+  margin: 0 auto;
+  font-weight: 300;
+  color: #212c3f;
+  padding-top: 5em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Brandon Grotesque W01';
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+
+h2 {
+  border-bottom: 1px solid #212c3f;
+}
+
+h1 {
+  font-size: 2.2em;
+  font-weight: 900;
+  padding-bottom: 18px;
+}
+
+.page-title {
+  position: fixed;
+  top: 0;
+  z-index: 9;
+  background: #FFF;
+  width: 660px;
+  padding: 20px 0 0 60px;
+  margin-top: 0;
+  margin-left: -60px;
+  line-height: 1.5em;
+
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+
+.page-title.shrink {
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 1px 0 20px #FFF;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+a {
+  color: #212c3f;
+  text-decoration: none;
+  text-shadow: 0.03em 0 white, -0.03em 0 white, 0 0.03em white, 0 -0.03em white, 0.06em 0 white, -0.06em 0 white, 0.09em 0 white, -0.09em 0 white, 0.12em 0 white, -0.12em 0 white, 0.15em 0 white, -0.15em 0 white;
+  background-image: -webkit-linear-gradient(#ffffff, #ffffff), -webkit-linear-gradient(#ffffff, #ffffff), -webkit-linear-gradient(#212c3f, #212c3f);
+  background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(#ffffff, #ffffff), linear-gradient(#212c3f, #212c3f);
+  background-size: .05em 1px, .05em 1px, 1px 1px;
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  background-position: 0% 90%, 100% 90%, 0% 90%;
+}
+
+a::-moz-selection {
+  text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
+  background: #b4d5fe;
+}
+a::selection {
+  text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
+  background: #b4d5fe;
+}
+
+a::-moz-selection {
+  text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
+  background: #b4d5fe;
+}
+
+a:before,
+a:after,
+a *,
+a *:before,
+a *:after {
+  text-shadow: none;
+}
+
+.docs-body a:visited {
+  color: #212c3f;
+}
+
+code {
+  font-family: 'Eco Coding W01';
+}
+
+code {
+  font-size: 77%;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0 .5em;
+  background-color: #f7f9fc;
+  border: 1px solid #c7d5f6;
+  border-radius: 2px;
+}
+
+p,
+blockquote,
+ul,
+ol,
+dl,
+table {
+  margin: 1em 0;
+}
+
+li {
+  margin-bottom: .5em;
+}
+
+li:last-of-type {
+  margin-bottom: 0;
+}
+
+h1 + p,
+h3 + p,
+h4 + p,
+h5 + p,
+h6 + p {
+  margin-top: 0;
+}
+
+dt {
+  font-weight: 700;
+}
+
+pre {
+  margin: 1em 0;
+}
+
+pre code {
+  padding: 20px 24px;
+  display: block;
+  overflow: auto;
+}
+
+pre code b,
+pre code strong {
+  font-weight: 700;
+}
+
+ul {
+  padding-left: 1.3em;
+}
+
+ul ul {
+  padding-left: 1.5em;
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th,
+table td {
+  padding: 14px;
+}
+
+table thead tr {
+  border-top: 1px solid #c7d5f6;
+}
+
+table tbody tr:first-child {
+  border-top: 1px solid #c7d5f6;
+}
+
+table tbody tr:nth-child(2n) {
+  background-color: #f7f9fc;
+}
+
+table tbody tr:last-child {
+  border-bottom: 1px solid #c7d5f6;
+}
+
+abbr {
+  border-bottom: 1px dashed #c7d5f6;
+  cursor: help;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #c7d5f6;
+  height: 1px;
+  padding: 0;
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+}
+
+blockquote {
+  padding-left: 20px;
+  border-left: 2px solid #212c3f;
+  font-style: italic;
+}
+
+mark {
+  background-color: #ffff9d;
+  padding: .05em .2em;
+  border-radius: 2px;
+}
+
+.codio-button-type-assessment,
+.codio-assessment-last-run {
+  font-family: 'Brandon Grotesque W01';
+}
