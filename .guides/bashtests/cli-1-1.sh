@@ -1,5 +1,6 @@
 #!/bin/bash
 # bash_history edit
+. ~/workspace/.guides/bashtests/function.sh
 
 bash_history=~/.bash_history
 check_file=cli-1-1
