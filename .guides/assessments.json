@@ -1,0 +1,45 @@
+[
+ {
+  "type": "test",
+  "taskId": "test-1377817756",
+  "source": {
+   "name": "Getting your first outputs",
+   "showName": true,
+   "instructions": "Do you remember the commands we just mentioned?\n\nIn the CLI:\n\n1. Get the _current user_\n2. Print the _path to the working directory_\n\n---\nOnce you have completed these tasks press the _Check It_ button to have your solution assessed.",
+   "command": "bash .guides/bashtests/cli-1-1.sh",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1541866165",
+  "source": {
+   "name": "Creating files and directories",
+   "instructions": "Files and directories creation using the command line is the first step on becoming a more efficient developer. \n\nClick on the terminal window and:\n\n1. Create a directory with the name: `test-dir1` in the `~/workspace` directory\n2. List the `~/workspace` directory content\n3. Enter the `test-dir1` directory\n4. Print the _path to the working directory_\n5. Create a file with the name: `test-file1.txt` inside the `test-dir1` directory\n6. List the hidden files\n7. Get back to the `~/workspace` directory\n8. List files and directories in a vertical column layout.\n\n---\nOnce you have completed these tasks press the _Check It_ button to have your solution assessed.",
+   "command": "bash .guides/bashtests/cli-1-4.sh",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-4158134642",
+  "source": {
+   "showName": true,
+   "name": "Navigating the file system",
+   "instructions": "Test your directory navigation skills:\n\n1. Confirm that we are on the `~/workspace` folder by getting the current directory path\n2. Enter the `dir1` directory\n3. Exit the `dir1` directory\n\n---\nOnce you have completed these tasks press the _Check It_ button to have your solution assessed.",
+   "command": "bash .guides/bashtests/cli-1-3.sh",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-962610545",
+  "source": {
+   "showName": true,
+   "name": "The list command",
+   "instructions": "By listing files and directories you can compare the output with your file tree.\n\nClick on the command line at the left and:\n\n1. List the files and directories that are on the `~/workspace` parent directory\n2. Lets make sure we have dotfiles available by listing the hidden files\n\n---\nOnce you have completed these tasks press the _Check It_ button to have your solution assessed.",
+   "command": "bash .guides/bashtests/cli-1-2.sh",
+   "points": 1
+  }
+ }
+]

@@ -1,3 +1,5 @@
+.guides/assessmentsAnswers.json
+.guides/bashtests/*.txt
 # Settings file
 .settings
 
