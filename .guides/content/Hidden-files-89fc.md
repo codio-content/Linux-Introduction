@@ -1,6 +1,6 @@
 ## The `ls` command ommited directories and files with a dot
 
-Aha! You are becoming a sharped-eyed developer.
+Aha! You are becoming a sharp-eyed developer.
 
 Look at the _file tree_. There are some __files and directories that start with a dot__ that are not being printed by the `ls` command, why is that? 
 
