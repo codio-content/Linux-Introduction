@@ -1,0 +1,149 @@
+{
+ "name": "Linux-Introduction",
+ "children": [
+  {
+   "title": "The Command Line Interface, CLI",
+   "id": "2e527cd0-8e1e-673a-5e05-e08cde051ec",
+   "pageId": "2e527cd0-8e1e-673a-5e05-e08cde051ec",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Inputs and outputs",
+     "id": "35bc9af6-e87c-f7e9-7c13-c65e1286d027",
+     "pageId": "35bc9af6-e87c-f7e9-7c13-c65e1286d027",
+     "type": "page"
+    },
+    {
+     "title": "Program execution",
+     "id": "df6769f7-4f98-e077-1307-54c3c30687e5",
+     "pageId": "df6769f7-4f98-e077-1307-54c3c30687e5",
+     "type": "page"
+    },
+    {
+     "title": "The CLI programs",
+     "id": "39654f75-3210-f8bc-568d-3047b884544",
+     "pageId": "39654f75-3210-f8bc-568d-3047b884544",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "The current directory ",
+   "id": "e30fe1ce-98fb-9bf9-4514-51815e6f41e",
+   "pageId": "e30fe1ce-98fb-9bf9-4514-51815e6f41e",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Challenge",
+     "id": "6372ca4-61d4-492-fda6-62955fce99a3",
+     "pageId": "6372ca4-61d4-492-fda6-62955fce99a3",
+     "type": "page"
+    },
+    {
+     "title": "The current directory: file tree",
+     "id": "95491f61-2ac0-e722-a85e-4bfa2fbe8c8b",
+     "pageId": "95491f61-2ac0-e722-a85e-4bfa2fbe8c8b",
+     "type": "page"
+    },
+    {
+     "title": "The home directory",
+     "id": "ac7c3205-b9a-25ef-a9e3-1bf949bbd80c",
+     "pageId": "ac7c3205-b9a-25ef-a9e3-1bf949bbd80c",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Listing directory contents",
+   "id": "e0456bf6-e567-d9f5-e462-2a123e9193e1",
+   "pageId": "e0456bf6-e567-d9f5-e462-2a123e9193e1",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Hidden files",
+     "id": "89fc75cb-4530-fb08-2078-8a07dafdd91",
+     "pageId": "89fc75cb-4530-fb08-2078-8a07dafdd91",
+     "type": "page"
+    },
+    {
+     "title": "Command options",
+     "id": "ada623ff-6158-edb7-4969-828440ea474",
+     "pageId": "ada623ff-6158-edb7-4969-828440ea474",
+     "type": "page"
+    },
+    {
+     "title": "The ls -a option in depth",
+     "id": "6dc1c71-2071-de61-1c9a-a35ad48a3c3c",
+     "pageId": "6dc1c71-2071-de61-1c9a-a35ad48a3c3c",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "bda72de1-70db-6cb9-6c8a-7d3568a2640e",
+     "pageId": "bda72de1-70db-6cb9-6c8a-7d3568a2640e",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Changing directories",
+   "id": "de6c4f31-aa3f-76db-22f0-c3d3e046b7f3",
+   "pageId": "de6c4f31-aa3f-76db-22f0-c3d3e046b7f3",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Navigating backwards",
+     "id": "f6cbaf8c-fa0d-2fe1-5d79-4d2abdc3f104",
+     "pageId": "f6cbaf8c-fa0d-2fe1-5d79-4d2abdc3f104",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "dac22075-2c75-2134-8893-ea4c9a3a6161",
+     "pageId": "dac22075-2c75-2134-8893-ea4c9a3a6161",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Creating directories",
+   "id": "288b825f-9f9-82dc-6546-cc14447459fd",
+   "pageId": "288b825f-9f9-82dc-6546-cc14447459fd",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "Creating files",
+   "id": "576d6b21-263b-acd3-ff2e-694f2026514d",
+   "pageId": "576d6b21-263b-acd3-ff2e-694f2026514d",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "Better listing",
+   "id": "f142e320-9a1f-f1ce-64ea-9b12a97fb93b",
+   "pageId": "f142e320-9a1f-f1ce-64ea-9b12a97fb93b",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Wrapping up",
+     "id": "8f97425e-5fe5-e4a8-4a91-ef36a1b7c871",
+     "pageId": "8f97425e-5fe5-e4a8-4a91-ef36a1b7c871",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "20db4056-31fe-d7-3423-f9457fde14a",
+     "pageId": "20db4056-31fe-d7-3423-f9457fde14a",
+     "type": "page"
+    },
+    {
+     "title": "That's all folks",
+     "id": "b97b89cc-30af-eb1b-74fe-f9d2e46bacb4",
+     "pageId": "b97b89cc-30af-eb1b-74fe-f9d2e46bacb4",
+     "type": "page"
+    }
+   ]
+  }
+ ]
+}
